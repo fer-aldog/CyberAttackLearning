@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">Cyber SecureMe App</string>
 
-    <string name="home_txt">Lorem ipsum dolor sit amet,\nconsectetur adipiscing elit.
-        \nFusce convallis pellentesque\nmetus id lacinia. Nunc dapibus
-        \npulvinar auctor. Duis nec sem\nat orci commodo viverra id in ipsum.</string>
+    <string name="home_txt">Lorem ipsum dolor sit amet, consectetur\nadipiscing
+        elit. Fusce convallis pellentesque\nmetus id lacinia. Nunc dapibus
+        pulvinar auctor.\nDuis nec sem at orci commodo viverra id in ipsum.</string>
 
     <string name="fact1">People lost $10 billion to scams\nin 2023, according to the FTC.</string>
 </resources>
