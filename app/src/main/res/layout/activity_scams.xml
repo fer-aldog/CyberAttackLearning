@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#F1F1F1"
+    android:id="@+id/scamsScreen"
     android:orientation="vertical">
 
     <LinearLayout
@@ -15,7 +16,7 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/homeButton"
+            android:id="@+id/homeBTN"
             android:layout_width="82dp"
             android:layout_height="wrap_content"
             android:background="#00FFFFFF"
@@ -25,7 +26,7 @@
             android:textColor="#8C8C8C" />
 
         <Button
-            android:id="@+id/malwareButton"
+            android:id="@+id/malwareBTN"
             android:layout_width="82dp"
             android:layout_height="wrap_content"
             android:background="#00FFFFFF"
@@ -35,7 +36,6 @@
             android:textColor="#8C8C8C" />
 
         <Button
-            android:id="@+id/scamButton"
             android:layout_width="82dp"
             android:layout_height="wrap_content"
             android:background="#00FFFFFF"
@@ -45,7 +45,7 @@
             android:textColor="@color/white" />
 
         <Button
-            android:id="@+id/phishingButton"
+            android:id="@+id/phishingBTN"
             android:layout_width="82dp"
             android:layout_height="wrap_content"
             android:background="#00FFFFFF"
@@ -55,7 +55,7 @@
             android:textColor="#8C8C8C" />
 
         <Button
-            android:id="@+id/quizButton"
+            android:id="@+id/quizBTN"
             android:layout_width="82dp"
             android:layout_height="wrap_content"
             android:background="#00FFFFFF"

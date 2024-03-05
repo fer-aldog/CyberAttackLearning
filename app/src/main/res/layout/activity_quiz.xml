@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F1F1"
+    android:id="@+id/quizScreen"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/buttonBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#686868"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/homeBTN"
+            android:layout_width="82dp"
+            android:layout_height="wrap_content"
+            android:background="#00FFFFFF"
+            android:paddingLeft="6dp"
+            android:paddingRight="6dp"
+            android:text="HOME"
+            android:textColor="#8C8C8C" />
+
+        <Button
+            android:id="@+id/malwareBTN"
+            android:layout_width="82dp"
+            android:layout_height="wrap_content"
+            android:background="#00FFFFFF"
+            android:paddingLeft="6dp"
+            android:paddingRight="6dp"
+            android:text="MALWARE"
+            android:textColor="#8C8C8C" />
+
+        <Button
+            android:id="@+id/scamBTN"
+            android:layout_width="82dp"
+            android:layout_height="wrap_content"
+            android:background="#00FFFFFF"
+            android:paddingLeft="6dp"
+            android:paddingRight="6dp"
+            android:text="SCAMS"
+            android:textColor="#8C8C8C" />
+
+        <Button
+            android:id="@+id/phishingBTN"
+            android:layout_width="82dp"
+            android:layout_height="wrap_content"
+            android:background="#00FFFFFF"
+            android:paddingLeft="6dp"
+            android:paddingRight="6dp"
+            android:text="PHISHING"
+            android:textColor="#8C8C8C" />
+
+        <Button
+            android:layout_width="82dp"
+            android:layout_height="wrap_content"
+            android:background="#00FFFFFF"
+            android:paddingLeft="6dp"
+            android:paddingRight="6dp"
+            android:text="QUIZ"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="QUIZ SELECTION"
+            android:textColor="#49454F"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="50dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Mode selection:"/>
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:spinnerMode="dropdown" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="30dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#434343"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="9dp"
+                android:layout_height="1dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Space
+                    android:layout_width="1dp"
+                    android:layout_height="9dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="Name of game"
+                    android:textColor="@color/white"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="Topic (e.g. scams, malware, phishing)"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+                <Space
+                    android:layout_width="1dp"
+                    android:layout_height="8dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing\nelit. Fusce convallis pellentesque metus id lacinia.\nNunc dapibus pulvinar auctor. Duis nec sem at orci\ncommodo viverra id in ipsum"
+                    android:textColor="#BDBDBD"
+                    android:textSize="14sp" />
+
+
+                <Button
+                    android:layout_width="73dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="2dp"
+                    android:text="PLAY"
+                    android:textColor="#E1E1E1"
+                    app:backgroundTint="#434343"
+                    app:cornerRadius="5sp" />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="11dp"
+                android:layout_height="1dp" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="30dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#434343"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="9dp"
+                android:layout_height="1dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Space
+                    android:layout_width="1dp"
+                    android:layout_height="9dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="Name of game"
+                    android:textColor="@color/white"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="Topic (e.g. scams, malware, phishing)"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+                <Space
+                    android:layout_width="1dp"
+                    android:layout_height="8dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing\nelit. Fusce convallis pellentesque metus id lacinia.\nNunc dapibus pulvinar auctor. Duis nec sem at orci\ncommodo viverra id in ipsum"
+                    android:textColor="#BDBDBD"
+                    android:textSize="14sp" />
+
+
+                <Button
+                    android:layout_width="73dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="2dp"
+                    android:text="PLAY"
+                    android:textColor="#E1E1E1"
+                    app:backgroundTint="#434343"
+                    app:cornerRadius="5sp" />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="11dp"
+                android:layout_height="1dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
