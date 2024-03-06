@@ -36,6 +36,7 @@
             android:textColor="#8C8C8C" />
 
         <Button
+            android:id="@+id/scamBTN"
             android:layout_width="82dp"
             android:layout_height="wrap_content"
             android:background="#00FFFFFF"

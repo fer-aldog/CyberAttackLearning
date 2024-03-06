@@ -5,31 +5,31 @@
 
     <color name="light_bg">#F1F1F1</color>
     <color name="light_button">#686868</color>
-    <color name="light_activetxt">#FFFFFF</color>
+    <color name="light_buttontxt">#FFFFFF</color>
     <color name="light_inactivetxt">#8C8C8C</color>
     <color name="light_text">#49454F</color>
 
-    <color name="dark_bg">#</color>
-    <color name="dark_button">#</color>
-    <color name="dark_activetxt">#</color>
-    <color name="dark_inactivetxt">#</color>
-    <color name="dark_text">#</color>
+    <color name="dark_bg">#191919</color>
+    <color name="dark_button">#BCBCBC</color>
+    <color name="dark_buttontxt">#C5C5C5</color>
+    <color name="dark_inactivetxt">#5A5A5A</color>
+    <color name="dark_text">#C5C5C5</color>
 
     <color name="cream_bg">#</color>
     <color name="cream_button">#</color>
-    <color name="cream_activetxt">#</color>
+    <color name="cream_buttontxt">#</color>
     <color name="cream_inactivetxt">#</color>
     <color name="cream_text">#</color>
 
     <color name="blue_bg">#</color>
     <color name="blue_button">#</color>
-    <color name="blue_activetxt">#</color>
+    <color name="blue_buttontxt">#</color>
     <color name="blue_inactivetxt">#</color>
     <color name="blue_text">#</color>
 
     <color name="lilac_bg">#</color>
     <color name="lilac_button">#</color>
-    <color name="lilac_activetxt">#</color>
+    <color name="lilac_buttontxt">#</color>
     <color name="lilac_inactivetxt">#</color>
     <color name="lilac_text">#</color>
 </resources>

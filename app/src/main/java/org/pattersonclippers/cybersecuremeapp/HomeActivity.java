@@ -9,22 +9,67 @@ import android.widget.Button;
 
 public class HomeActivity extends AppCompatActivity {
 
-    Button homeBTN, malwareBTN, scamBTN, phishingBTN, quizBTN;
+    Button homeBTN, malwareBTN, scamBTN, phishingBTN, quizBTN, link1BTN, link2BTN;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
+        homeBTN = (Button) findViewById(R.id.homeBTN);
         malwareBTN = (Button) findViewById(R.id.malwareBTN);
         scamBTN = (Button) findViewById(R.id.scamBTN);
         phishingBTN = (Button) findViewById(R.id.phishingBTN);
         quizBTN = (Button) findViewById(R.id.quizBTN);
+        link1BTN = (Button) findViewById(R.id.link1BTN);
+        link2BTN = (Button) findViewById(R.id.link2BTN);
 
         malwareBTN.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent myIntent = new Intent(HomeActivity.this, MalwareActivity.class);
+                startActivity(myIntent);
+            }
+        });
+
+        scamBTN.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent myIntent = new Intent(HomeActivity.this, ScamsActivity.class);
+                startActivity(myIntent);
+            }
+        });
+
+        phishingBTN.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent myIntent = new Intent(HomeActivity.this, PhishingActivity.class);
+                startActivity(myIntent);
+            }
+        });
+
+        quizBTN.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent myIntent = new Intent(HomeActivity.this, QuizActivity.class);
+                startActivity(myIntent);
+            }
+        });
+
+        link1BTN.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent myIntent = new Intent(HomeActivity.this, WebViewActivity.class);
+                myIntent.putExtra("whichLink", "link1");
+                startActivity(myIntent);
+            }
+        });
+
+        link2BTN.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent myIntent = new Intent(HomeActivity.this, WebViewActivity.class);
+                myIntent.putExtra("whichLink", "link2");
                 startActivity(myIntent);
             }
         });

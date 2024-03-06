@@ -56,6 +56,7 @@
             android:textColor="#8C8C8C" />
 
         <Button
+            android:id="@+id/quizBTN"
             android:layout_width="82dp"
             android:layout_height="wrap_content"
             android:background="#00FFFFFF"
@@ -77,7 +78,6 @@
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-black"
             android:text="QUIZ SELECTION"
-            android:textColor="#49454F"
             android:textSize="25sp"
             android:textStyle="bold" />
 
