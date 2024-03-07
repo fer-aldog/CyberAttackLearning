@@ -15,6 +15,7 @@
     <color name="dark_inactivetxt">#5A5A5A</color>
     <color name="dark_text">#C5C5C5</color>
 
+    <!--
     <color name="cream_bg">#</color>
     <color name="cream_button">#</color>
     <color name="cream_buttontxt">#</color>
@@ -31,5 +32,5 @@
     <color name="lilac_button">#</color>
     <color name="lilac_buttontxt">#</color>
     <color name="lilac_inactivetxt">#</color>
-    <color name="lilac_text">#</color>
+    <color name="lilac_text">#</color>-->
 </resources>

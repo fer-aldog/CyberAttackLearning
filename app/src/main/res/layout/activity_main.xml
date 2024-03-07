@@ -44,7 +44,7 @@
         android:layout_height="30dp"/>
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/picOfFact"
         android:layout_width="320dp"
         android:layout_height="180dp"
         tools:srcCompat="@drawable/fact1pic"
