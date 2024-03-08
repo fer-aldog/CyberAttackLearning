@@ -3,6 +3,7 @@ package org.pattersonclippers.cybersecuremeapp;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -24,11 +25,20 @@ public class MainActivity extends AppCompatActivity {
 
     int factIndex;
     Facts fact1, fact2, fact3, fact4, fact5, fact6, fact7, fact8, fact9, fact10;
+    String theme;
+    private SharedPreferences mySharedPreferences;
+    SharedPreferences.Editor preferencesEditor;
+    private final String COLOR_KEY = "color";
+    private String spFilename = "org.pattersonclippers.cybersecuremeapp.AllColor";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        mySharedPreferences = getSharedPreferences(spFilename, MODE_PRIVATE);
+        preferencesEditor = mySharedPreferences.edit();
+        theme = mySharedPreferences.getString(COLOR_KEY, "light");
 
         cyberFacts = (TextView) findViewById(R.id.cyberFacts);
         picOfFact = (ImageView) findViewById(R.id.picOfFact);
@@ -68,18 +78,33 @@ public class MainActivity extends AppCompatActivity {
 
                 if(radioButton.getId() == R.id.radio_light){
                     mainScreen.setBackgroundColor(getResources().getColor(R.color.light_bg));
+                    theme = "light";
+                    preferencesEditor.putString(COLOR_KEY, theme);
+                    preferencesEditor.apply();
                 }
                 if(radioButton.getId() == R.id.radio_dark){
                     mainScreen.setBackgroundColor(getResources().getColor(R.color.dark_bg));
+                    theme = "dark";
+                    preferencesEditor.putString(COLOR_KEY, theme);
+                    preferencesEditor.apply();
                 }
                 if(radioButton.getId() == R.id.radio_cream){
-
+                    mainScreen.setBackgroundColor(getResources().getColor(R.color.cream_bg));
+                    theme = "cream";
+                    preferencesEditor.putString(COLOR_KEY, theme);
+                    preferencesEditor.apply();
                 }
                 if(radioButton.getId() == R.id.radio_blue){
-
+                    mainScreen.setBackgroundColor(getResources().getColor(R.color.blue_bg));
+                    theme = "blue";
+                    preferencesEditor.putString(COLOR_KEY, theme);
+                    preferencesEditor.apply();
                 }
                 if(radioButton.getId() == R.id.radio_lilac){
-
+                    mainScreen.setBackgroundColor(getResources().getColor(R.color.lilac_bg));
+                    theme = "lilac";
+                    preferencesEditor.putString(COLOR_KEY, theme);
+                    preferencesEditor.apply();
                 }
             }
         });
