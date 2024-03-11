@@ -35,20 +35,15 @@ public class ScamsActivity extends AppCompatActivity {
         quizBTN = (Button) findViewById(R.id.quizBTN);
 
         if(theme.equals("light")) {
-            scamsScreen.setBackgroundColor(getResources().getColor(R.color.light_bg));
-        }
+            scamsScreen.setBackgroundColor(getResources().getColor(R.color.light_bg)); }
         if(theme.equals("dark")) {
-            scamsScreen.setBackgroundColor(getResources().getColor(R.color.dark_bg));
-        }
+            scamsScreen.setBackgroundColor(getResources().getColor(R.color.dark_bg)); }
         if(theme.equals("cream")) {
-            scamsScreen.setBackgroundColor(getResources().getColor(R.color.cream_bg));
-        }
+            scamsScreen.setBackgroundColor(getResources().getColor(R.color.cream_bg)); }
         if(theme.equals("blue")) {
-            scamsScreen.setBackgroundColor(getResources().getColor(R.color.blue_bg));
-        }
+            scamsScreen.setBackgroundColor(getResources().getColor(R.color.blue_bg)); }
         if(theme.equals("lilac")) {
-            scamsScreen.setBackgroundColor(getResources().getColor(R.color.lilac_bg));
-        }
+            scamsScreen.setBackgroundColor(getResources().getColor(R.color.lilac_bg)); }
 
         homeBTN.setOnClickListener(new View.OnClickListener() {
             @Override

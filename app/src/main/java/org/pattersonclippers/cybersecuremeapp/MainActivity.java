@@ -46,6 +46,17 @@ public class MainActivity extends AppCompatActivity {
         colourRG = (RadioGroup) findViewById(R.id.colourRG);
         mainScreen = (LinearLayout) findViewById(R.id.mainScreen);
 
+        if(theme.equals("light")) {
+            mainScreen.setBackgroundColor(getResources().getColor(R.color.light_bg)); }
+        if(theme.equals("dark")) {
+            mainScreen.setBackgroundColor(getResources().getColor(R.color.dark_bg)); }
+        if(theme.equals("cream")) {
+            mainScreen.setBackgroundColor(getResources().getColor(R.color.cream_bg)); }
+        if(theme.equals("blue")) {
+            mainScreen.setBackgroundColor(getResources().getColor(R.color.blue_bg)); }
+        if(theme.equals("lilac")) {
+            mainScreen.setBackgroundColor(getResources().getColor(R.color.lilac_bg)); }
+
         factIndex = (int) (Math.random()*10);
         fact1 = new Facts(getString(R.string.fact1), R.drawable.fact1pic);
         fact2 = new Facts(getString(R.string.fact2), R.drawable.fact1pic);

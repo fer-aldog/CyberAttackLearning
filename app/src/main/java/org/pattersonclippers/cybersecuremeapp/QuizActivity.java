@@ -35,20 +35,15 @@ public class QuizActivity extends AppCompatActivity {
         quizBTN = (Button) findViewById(R.id.quizBTN);
 
         if(theme.equals("light")) {
-            quizScreen.setBackgroundColor(getResources().getColor(R.color.light_bg));
-        }
+            quizScreen.setBackgroundColor(getResources().getColor(R.color.light_bg)); }
         if(theme.equals("dark")) {
-            quizScreen.setBackgroundColor(getResources().getColor(R.color.dark_bg));
-        }
+            quizScreen.setBackgroundColor(getResources().getColor(R.color.dark_bg)); }
         if(theme.equals("cream")) {
-            quizScreen.setBackgroundColor(getResources().getColor(R.color.cream_bg));
-        }
+            quizScreen.setBackgroundColor(getResources().getColor(R.color.cream_bg)); }
         if(theme.equals("blue")) {
-            quizScreen.setBackgroundColor(getResources().getColor(R.color.blue_bg));
-        }
+            quizScreen.setBackgroundColor(getResources().getColor(R.color.blue_bg)); }
         if(theme.equals("lilac")) {
-            quizScreen.setBackgroundColor(getResources().getColor(R.color.lilac_bg));
-        }
+            quizScreen.setBackgroundColor(getResources().getColor(R.color.lilac_bg)); }
 
         homeBTN.setOnClickListener(new View.OnClickListener() {
             @Override

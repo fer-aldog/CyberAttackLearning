@@ -37,20 +37,15 @@ public class HomeActivity extends AppCompatActivity {
         link2BTN = (Button) findViewById(R.id.link2BTN);
 
         if(theme.equals("light")) {
-            homeScreen.setBackgroundColor(getResources().getColor(R.color.light_bg));
-        }
+            homeScreen.setBackgroundColor(getResources().getColor(R.color.light_bg)); }
         if(theme.equals("dark")) {
-            homeScreen.setBackgroundColor(getResources().getColor(R.color.dark_bg));
-        }
+            homeScreen.setBackgroundColor(getResources().getColor(R.color.dark_bg)); }
         if(theme.equals("cream")) {
-            homeScreen.setBackgroundColor(getResources().getColor(R.color.cream_bg));
-        }
+            homeScreen.setBackgroundColor(getResources().getColor(R.color.cream_bg)); }
         if(theme.equals("blue")) {
-            homeScreen.setBackgroundColor(getResources().getColor(R.color.blue_bg));
-        }
+            homeScreen.setBackgroundColor(getResources().getColor(R.color.blue_bg)); }
         if(theme.equals("lilac")) {
-            homeScreen.setBackgroundColor(getResources().getColor(R.color.lilac_bg));
-        }
+            homeScreen.setBackgroundColor(getResources().getColor(R.color.lilac_bg)); }
 
         malwareBTN.setOnClickListener(new View.OnClickListener() {
             @Override

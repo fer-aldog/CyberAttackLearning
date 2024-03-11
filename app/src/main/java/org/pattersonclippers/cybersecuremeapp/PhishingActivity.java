@@ -35,20 +35,15 @@ public class PhishingActivity extends AppCompatActivity {
         quizBTN = (Button) findViewById(R.id.quizBTN);
 
         if(theme.equals("light")) {
-            phishingScreen.setBackgroundColor(getResources().getColor(R.color.light_bg));
-        }
+            phishingScreen.setBackgroundColor(getResources().getColor(R.color.light_bg)); }
         if(theme.equals("dark")) {
-            phishingScreen.setBackgroundColor(getResources().getColor(R.color.dark_bg));
-        }
+            phishingScreen.setBackgroundColor(getResources().getColor(R.color.dark_bg)); }
         if(theme.equals("cream")) {
-            phishingScreen.setBackgroundColor(getResources().getColor(R.color.cream_bg));
-        }
+            phishingScreen.setBackgroundColor(getResources().getColor(R.color.cream_bg)); }
         if(theme.equals("blue")) {
-            phishingScreen.setBackgroundColor(getResources().getColor(R.color.blue_bg));
-        }
+            phishingScreen.setBackgroundColor(getResources().getColor(R.color.blue_bg)); }
         if(theme.equals("lilac")) {
-            phishingScreen.setBackgroundColor(getResources().getColor(R.color.lilac_bg));
-        }
+            phishingScreen.setBackgroundColor(getResources().getColor(R.color.lilac_bg)); }
 
         homeBTN.setOnClickListener(new View.OnClickListener() {
             @Override
