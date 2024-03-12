@@ -98,7 +98,7 @@
                 android:layout_width="367dp"
                 android:layout_height="139dp"
                 android:scaleType="centerCrop"
-                tools:srcCompat="@drawable/fact1pic" />
+                app:srcCompat="@drawable/phishing" />
 
             <Space
                 android:layout_width="wrap_content"
