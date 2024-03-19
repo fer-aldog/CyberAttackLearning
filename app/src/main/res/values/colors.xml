@@ -15,28 +15,21 @@
     <color name="dark_inactivetxt">#5A5A5A</color>
     <color name="dark_text">#C5C5C5</color>
 
-
-    <color name="cream_bg">#FFFDD0</color>
-    <color name="blue_bg">#ADD8E6</color>
-    <color name="lilac_bg">#EDB6ED</color>
-
-
-    <!--
-    <color name="cream_bg">#FFFDD0</color>
-    <color name="cream_button">#</color>
-    <color name="cream_buttontxt">#</color>
-    <color name="cream_inactivetxt">#</color>
-    <color name="cream_text">#</color>
+    <color name="cream_bg">#f8f0c6</color>
+    <color name="cream_button">#D5C08D</color>
+    <color name="cream_buttontxt">#FFFAE1</color>
+    <color name="cream_inactivetxt">#F4DDA3</color>
+    <color name="cream_text">#887348</color>
 
     <color name="blue_bg">#ADD8E6</color>
-    <color name="blue_button">#</color>
-    <color name="blue_buttontxt">#</color>
-    <color name="blue_inactivetxt">#</color>
-    <color name="blue_text">#</color>
+    <color name="blue_button">#75ADBF</color>
+    <color name="blue_buttontxt">#174B5C</color>
+    <color name="blue_inactivetxt">#4F174B5C</color>
+    <color name="blue_text">#1E708A</color>
 
     <color name="lilac_bg">#EDB6ED</color>
-    <color name="lilac_button">#</color>
-    <color name="lilac_buttontxt">#</color>
-    <color name="lilac_inactivetxt">#</color>
-    <color name="lilac_text">#</color>-->
+    <color name="lilac_button">#A78DD1</color>
+    <color name="lilac_buttontxt">#F0E5F4</color>
+    <color name="lilac_inactivetxt">#BBA1E4</color>
+    <color name="lilac_text">#8B59CD</color>
 </resources>
