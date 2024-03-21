@@ -25,10 +25,12 @@
         commodo lobortis urna rhoncus.</string>
 
     <string name="fact1">People lost $10 billion to scams\nin 2023, according to the FTC.</string>
-    <string name="fact2">fact 2.</string>
-    <string name="fact3">fact 3.</string>
-    <string name="fact4">fact 4.</string>
-    <string name="fact5">fact 5.</string>
+    <string name="fact2">In 1986, the very first computer\nvirus was made. It was a boot
+        \nsector virus called 'Brain'.</string>
+    <string name="fact3">250,000 computer viruses are\nregistered every single day of the year.</string>
+    <string name="fact4">67% of ransomware attempts in the
+        \nUS involved some form of phishing.</string>
+    <string name="fact5">Some scammers use AI to clone\nvoices of loved ones to get\nmoney from you.</string>
     <string name="fact6">fact 6.</string>
     <string name="fact7">fact 7.</string>
     <string name="fact8">fact 8.</string>

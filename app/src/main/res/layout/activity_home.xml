@@ -77,8 +77,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-black"
-            android:text="WELCOME TO APP'S NAME!"
-            android:textSize="25sp"
+            android:text="WELCOME TO CYBER: SECUREME!"
+            android:textSize="24sp"
             android:textStyle="bold" />
 
         <Space
@@ -122,24 +122,28 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/link1BTN"
-                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/link1BTN"
                 android:text="Link 1"
-                app:backgroundTint="#808080"
-                app:cornerRadius="5sp" />
+                android:textSize="14sp"
+                android:textColor="#FFFFFF"
+                app:cornerRadius="5sp"
+                android:backgroundTint="#686868"/>
 
             <Space
                 android:layout_width="40dp"
                 android:layout_height="wrap_content" />
 
             <Button
-                android:id="@+id/link2BTN"
-                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/link2BTN"
                 android:text="Link 2"
-                app:backgroundTint="#808080"
-                app:cornerRadius="5sp" />
+                android:textSize="14sp"
+                android:textColor="#FFFFFF"
+                app:cornerRadius="5sp"
+                android:backgroundTint="#686868" />
 
         </LinearLayout>
     </LinearLayout>

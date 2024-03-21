@@ -86,7 +86,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-black"
                 android:text="ALL ABOUT PHISHING"
-                android:textSize="25sp"
+                android:textSize="24sp"
                 android:textStyle="bold" />
 
             <Space
