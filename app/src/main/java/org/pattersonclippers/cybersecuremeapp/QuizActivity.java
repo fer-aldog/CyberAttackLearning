@@ -72,7 +72,7 @@ public class QuizActivity extends AppCompatActivity {
         phishingBTN.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myIntent = new Intent(QuizActivity.this, PhishingActivity.class);
+                Intent myIntent = new Intent(QuizActivity.this, VirusActivity.class);
                 startActivity(myIntent);
             }
         });

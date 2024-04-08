@@ -9,10 +9,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
 
-public class PhishingActivity extends AppCompatActivity {
+public class VirusActivity extends AppCompatActivity {
 
-    Button homeBTN, malwareBTN, scamBTN, phishingBTN, quizBTN;
-    LinearLayout phishingScreen;
+    Button homeBTN, malwareBTN, scamBTN, virusBTN, quizBTN;
+    LinearLayout virusScreen;
 
     String theme;
     private SharedPreferences mySharedPreferences;
@@ -22,33 +22,33 @@ public class PhishingActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_phishing);
+        setContentView(R.layout.activity_virus);
 
         mySharedPreferences = getSharedPreferences(spFilename, MODE_PRIVATE);
         theme = mySharedPreferences.getString(COLOR_KEY, "light");
 
-        phishingScreen = (LinearLayout) findViewById(R.id.phishingScreen);
+        virusScreen = (LinearLayout) findViewById(R.id.virusScreen);
         homeBTN = (Button) findViewById(R.id.homeBTN);
         malwareBTN = (Button) findViewById(R.id.malwareBTN);
         scamBTN = (Button) findViewById(R.id.scamBTN);
-        phishingBTN = (Button) findViewById(R.id.phishingBTN);
+        virusBTN = (Button) findViewById(R.id.virusBTN);
         quizBTN = (Button) findViewById(R.id.quizBTN);
 
         if(theme.equals("light")) {
-            phishingScreen.setBackgroundColor(getResources().getColor(R.color.light_bg)); }
+            virusScreen.setBackgroundColor(getResources().getColor(R.color.light_bg)); }
         if(theme.equals("dark")) {
-            phishingScreen.setBackgroundColor(getResources().getColor(R.color.dark_bg)); }
+            virusScreen.setBackgroundColor(getResources().getColor(R.color.dark_bg)); }
         if(theme.equals("cream")) {
-            phishingScreen.setBackgroundColor(getResources().getColor(R.color.cream_bg)); }
+            virusScreen.setBackgroundColor(getResources().getColor(R.color.cream_bg)); }
         if(theme.equals("blue")) {
-            phishingScreen.setBackgroundColor(getResources().getColor(R.color.blue_bg)); }
+            virusScreen.setBackgroundColor(getResources().getColor(R.color.blue_bg)); }
         if(theme.equals("lilac")) {
-            phishingScreen.setBackgroundColor(getResources().getColor(R.color.lilac_bg)); }
+            virusScreen.setBackgroundColor(getResources().getColor(R.color.lilac_bg)); }
 
         homeBTN.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myIntent = new Intent(PhishingActivity.this, HomeActivity.class);
+                Intent myIntent = new Intent(VirusActivity.this, HomeActivity.class);
                 startActivity(myIntent);
             }
         });
@@ -56,7 +56,7 @@ public class PhishingActivity extends AppCompatActivity {
         malwareBTN.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myIntent = new Intent(PhishingActivity.this, MalwareActivity.class);
+                Intent myIntent = new Intent(VirusActivity.this, MalwareActivity.class);
                 startActivity(myIntent);
             }
         });
@@ -64,7 +64,7 @@ public class PhishingActivity extends AppCompatActivity {
         scamBTN.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myIntent = new Intent(PhishingActivity.this, ScamsActivity.class);
+                Intent myIntent = new Intent(VirusActivity.this, ScamsActivity.class);
                 startActivity(myIntent);
             }
         });
@@ -72,7 +72,7 @@ public class PhishingActivity extends AppCompatActivity {
         quizBTN.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myIntent = new Intent(PhishingActivity.this, QuizActivity.class);
+                Intent myIntent = new Intent(VirusActivity.this, QuizActivity.class);
                 startActivity(myIntent);
             }
         });

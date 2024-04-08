@@ -13,10 +13,10 @@
         android:theme="@style/Theme.CyberSecureMeApp"
         tools:targetApi="31">
         <activity
-            android:name=".QuizActivity"
+            android:name=".VirusActivity"
             android:exported="false" />
         <activity
-            android:name=".PhishingActivity"
+            android:name=".QuizActivity"
             android:exported="false" />
         <activity
             android:name=".ScamsActivity"
@@ -39,7 +39,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
     </application>
 
 </manifest>

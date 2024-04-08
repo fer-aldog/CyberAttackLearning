@@ -23,10 +23,10 @@ public class WebViewActivity extends AppCompatActivity {
         whichLink = incomingIntent.getStringExtra("whichLink");
 
         if (whichLink == "link1") {
-            websiteWV.loadUrl("https://www.google.com");
+            websiteWV.loadUrl("https://www.itgovernanceusa.com/blog/data-breaches-and-cyber-attacks-in-2024-in-the-usa");
         }
         if (whichLink == "link2") {
-            websiteWV.loadUrl("https://www.youtube.com");
+            websiteWV.loadUrl("https://www.ekransystem.com/en/blog/best-cyber-security-practices");
         }
         websiteWV.getSettings().setJavaScriptEnabled(true);
         websiteWV.setWebViewClient(new WebViewClient());

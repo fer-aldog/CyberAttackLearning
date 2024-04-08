@@ -11,7 +11,7 @@ import android.widget.LinearLayout;
 
 public class HomeActivity extends AppCompatActivity {
 
-    Button homeBTN, malwareBTN, scamBTN, phishingBTN, quizBTN, link1BTN, link2BTN;
+    Button homeBTN, malwareBTN, scamBTN, virusBTN, quizBTN, link1BTN, link2BTN;
     LinearLayout homeScreen;
 
     String theme;
@@ -31,7 +31,7 @@ public class HomeActivity extends AppCompatActivity {
         homeBTN = (Button) findViewById(R.id.homeBTN);
         malwareBTN = (Button) findViewById(R.id.malwareBTN);
         scamBTN = (Button) findViewById(R.id.scamBTN);
-        phishingBTN = (Button) findViewById(R.id.phishingBTN);
+        virusBTN = (Button) findViewById(R.id.virusBTN);
         quizBTN = (Button) findViewById(R.id.quizBTN);
         link1BTN = (Button) findViewById(R.id.link1BTN);
         link2BTN = (Button) findViewById(R.id.link2BTN);
@@ -63,10 +63,10 @@ public class HomeActivity extends AppCompatActivity {
             }
         });
 
-        phishingBTN.setOnClickListener(new View.OnClickListener() {
+        virusBTN.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myIntent = new Intent(HomeActivity.this, PhishingActivity.class);
+                Intent myIntent = new Intent(HomeActivity.this, VirusActivity.class);
                 startActivity(myIntent);
             }
         });

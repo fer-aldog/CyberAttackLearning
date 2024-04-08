@@ -27,7 +27,7 @@
 
         <Button
             android:id="@+id/malwareBTN"
-            android:layout_width="82dp"
+            android:layout_width="90dp"
             android:layout_height="wrap_content"
             android:background="#00FFFFFF"
             android:paddingLeft="6dp"
@@ -36,8 +36,18 @@
             android:textColor="#8C8C8C" />
 
         <Button
+            android:id="@+id/virusBTN"
+            android:layout_width="84dp"
+            android:layout_height="wrap_content"
+            android:background="#00FFFFFF"
+            android:paddingLeft="6dp"
+            android:paddingRight="6dp"
+            android:text="VIRUSES"
+            android:textColor="#8C8C8C" />
+
+        <Button
             android:id="@+id/scamBTN"
-            android:layout_width="82dp"
+            android:layout_width="76dp"
             android:layout_height="wrap_content"
             android:background="#00FFFFFF"
             android:paddingLeft="6dp"
@@ -46,18 +56,8 @@
             android:textColor="#8C8C8C" />
 
         <Button
-            android:id="@+id/phishingBTN"
-            android:layout_width="82dp"
-            android:layout_height="wrap_content"
-            android:background="#00FFFFFF"
-            android:paddingLeft="6dp"
-            android:paddingRight="6dp"
-            android:text="PHISHING"
-            android:textColor="#8C8C8C" />
-
-        <Button
             android:id="@+id/quizBTN"
-            android:layout_width="82dp"
+            android:layout_width="78dp"
             android:layout_height="wrap_content"
             android:background="#00FFFFFF"
             android:paddingLeft="6dp"
@@ -95,15 +95,16 @@
             android:layout_height="30dp" />
 
         <TextView
+            android:gravity="center"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-medium"
             android:text="@string/home_txt"
-            android:textSize="17sp" />
+            android:textSize="16sp" />
 
         <Space
             android:layout_width="wrap_content"
-            android:layout_height="50dp" />
+            android:layout_height="35dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -125,21 +126,21 @@
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 android:id="@+id/link1BTN"
-                android:text="Link 1"
+                android:text="2024 Cyber\nAttacks USA"
                 android:textSize="14sp"
                 android:textColor="#FFFFFF"
                 app:cornerRadius="5sp"
                 android:backgroundTint="#686868"/>
 
             <Space
-                android:layout_width="40dp"
+                android:layout_width="20dp"
                 android:layout_height="wrap_content" />
 
             <Button
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 android:id="@+id/link2BTN"
-                android:text="Link 2"
+                android:text="Avoid cyber\nattacks"
                 android:textSize="14sp"
                 android:textColor="#FFFFFF"
                 app:cornerRadius="5sp"

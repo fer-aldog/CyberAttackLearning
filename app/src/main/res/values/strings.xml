@@ -1,9 +1,12 @@
 <resources>
     <string name="app_name">Cyber SecureMe App</string>
 
-    <string name="home_txt">Lorem ipsum dolor sit amet, consectetur\nadipiscing
-        elit. Fusce convallis pellentesque\nmetus id lacinia. Nunc dapibus
-        pulvinar auctor.\nDuis nec sem at orci commodo viverra id in ipsum.</string>
+    <string name="home_txt">One of the golden rules on the Internet is to\nnever
+        share personal information with anyone.\nDespite that, cyber criminals
+        can still take your information without you knowing.
+        \n\nCyber: SecureMe contains information about\nidentifying
+        and protection against cyber\nattacks, and fun quizzes to test knowledge
+        \nand ability to identify cyber attacks.</string>
 
     <string name="screentxt">Lorem ipsum dolor sit amet, consectetur adipiscing
         elit. Maecenas nec augue at odio sagittis commodo eget ac ligula.
@@ -25,16 +28,14 @@
         commodo lobortis urna rhoncus.</string>
 
     <string name="fact1">People lost $10 billion to scams\nin 2023, according to the FTC.</string>
-    <string name="fact2">In 1986, the very first computer\nvirus was made. It was a boot
-        \nsector virus called 'Brain'.</string>
+    <string name="fact2">In 1986, the very first computer virus, a\nboot sector virus called Brain, was made.</string>
     <string name="fact3">250,000 computer viruses are\nregistered every single day of the year.</string>
-    <string name="fact4">67% of ransomware attempts in the
-        \nUS involved some form of phishing.</string>
-    <string name="fact5">Some scammers use AI to clone\nvoices of loved ones to get\nmoney from you.</string>
-    <string name="fact6">fact 6.</string>
-    <string name="fact7">fact 7.</string>
-    <string name="fact8">fact 8.</string>
-    <string name="fact9">fact 9.</string>
-    <string name="fact10">fact 10.</string>
+    <string name="fact4">67% of ransomware attempts in the\nUS involved some form of phishing.</string>
+    <string name="fact5">Cyber criminals have started using\nAI to manipulate victims better.</string>
+    <string name="fact6">The most common malware file type\nreceived in 2022 were exe files.</string>
+    <string name="fact7">One of the youngest hackers in the US was\nJonathan James, who hacked NASA.</string>
+    <string name="fact8">Two-factor authentication alarms users of\nother devices trying to get in the account.</string>
+    <string name="fact9">Products online with too-good-to-be-true\nprices are usually too good to be true.</string>
+    <string name="fact10">Thoroughly reading mail you receive from\nbusinesses may prevent scams or malware.</string>
 
 </resources>

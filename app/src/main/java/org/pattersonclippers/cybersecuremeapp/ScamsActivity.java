@@ -11,7 +11,7 @@ import android.widget.LinearLayout;
 
 public class ScamsActivity extends AppCompatActivity {
 
-    Button homeBTN, malwareBTN, scamBTN, phishingBTN, quizBTN;
+    Button homeBTN, malwareBTN, scamBTN, virusBTN, quizBTN;
     LinearLayout scamsScreen;
 
     String theme;
@@ -31,7 +31,7 @@ public class ScamsActivity extends AppCompatActivity {
         homeBTN = (Button) findViewById(R.id.homeBTN);
         malwareBTN = (Button) findViewById(R.id.malwareBTN);
         scamBTN = (Button) findViewById(R.id.scamBTN);
-        phishingBTN = (Button) findViewById(R.id.phishingBTN);
+        virusBTN = (Button) findViewById(R.id.virusBTN);
         quizBTN = (Button) findViewById(R.id.quizBTN);
 
         if(theme.equals("light")) {
@@ -61,10 +61,10 @@ public class ScamsActivity extends AppCompatActivity {
             }
         });
 
-        phishingBTN.setOnClickListener(new View.OnClickListener() {
+        virusBTN.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myIntent = new Intent(ScamsActivity.this, PhishingActivity.class);
+                Intent myIntent = new Intent(ScamsActivity.this, VirusActivity.class);
                 startActivity(myIntent);
             }
         });
