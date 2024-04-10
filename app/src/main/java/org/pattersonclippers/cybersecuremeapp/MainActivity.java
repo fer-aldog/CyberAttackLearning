@@ -59,15 +59,15 @@ public class MainActivity extends AppCompatActivity {
 
         factIndex = (int) (Math.random()*10);
         fact1 = new Facts(getString(R.string.fact1), R.drawable.fact1pic);
-        fact2 = new Facts(getString(R.string.fact2), R.drawable.fact1pic);
-        fact3 = new Facts(getString(R.string.fact3), R.drawable.fact1pic);
-        fact4 = new Facts(getString(R.string.fact4), R.drawable.fact1pic);
-        fact5 = new Facts(getString(R.string.fact5), R.drawable.fact1pic);
-        fact6 = new Facts(getString(R.string.fact6), R.drawable.fact1pic);
-        fact7 = new Facts(getString(R.string.fact7), R.drawable.fact1pic);
-        fact8 = new Facts(getString(R.string.fact8), R.drawable.fact1pic);
-        fact9 = new Facts(getString(R.string.fact9), R.drawable.fact1pic);
-        fact10 = new Facts(getString(R.string.fact10), R.drawable.fact1pic);
+        fact2 = new Facts(getString(R.string.fact2), R.drawable.fact2pic);
+        fact3 = new Facts(getString(R.string.fact3), R.drawable.fact3pic);
+        fact4 = new Facts(getString(R.string.fact4), R.drawable.fact4pic);
+        fact5 = new Facts(getString(R.string.fact5), R.drawable.fact5pic);
+        fact6 = new Facts(getString(R.string.fact6), R.drawable.fact6pic);
+        fact7 = new Facts(getString(R.string.fact7), R.drawable.fact7pic);
+        fact8 = new Facts(getString(R.string.fact8), R.drawable.fact8pic);
+        fact9 = new Facts(getString(R.string.fact9), R.drawable.fact9pic);
+        fact10 = new Facts(getString(R.string.fact10), R.drawable.fact10pic);
 
         Facts[] factsArray = new Facts[]{fact1, fact2, fact3, fact4, fact5, fact6, fact7, fact8, fact9, fact10};
         cyberFacts.setText(factsArray[factIndex].getFact());
