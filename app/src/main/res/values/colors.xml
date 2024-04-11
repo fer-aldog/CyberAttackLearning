@@ -4,13 +4,13 @@
     <color name="white">#FFFFFFFF</color>
 
     <color name="light_bg">#F1F1F1</color>
-    <color name="light_button">#686868</color>
+    <color name="light_button">#B6B6B6</color>
     <color name="light_buttontxt">#FFFFFF</color>
     <color name="light_inactivetxt">#8C8C8C</color>
     <color name="light_text">#49454F</color>
 
     <color name="dark_bg">#191919</color>
-    <color name="dark_button">#BCBCBC</color>
+    <color name="dark_button">#333333</color>
     <color name="dark_buttontxt">#C5C5C5</color>
     <color name="dark_inactivetxt">#5A5A5A</color>
     <color name="dark_text">#C5C5C5</color>

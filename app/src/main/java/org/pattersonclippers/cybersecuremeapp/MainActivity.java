@@ -5,10 +5,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.app.Activity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 
@@ -16,10 +18,11 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class MainActivity extends AppCompatActivity {
-    TextView cyberFacts;
+    TextView appLoad, dyk, cyberFacts, themeTV;
     ImageView picOfFact;
     Button doneBTN;
     RadioGroup colourRG;
+    RadioButton radio_light, radio_dark, radio_cream, radio_blue, radio_lilac;
     LinearLayout mainScreen;
 
 
@@ -40,22 +43,90 @@ public class MainActivity extends AppCompatActivity {
         preferencesEditor = mySharedPreferences.edit();
         theme = mySharedPreferences.getString(COLOR_KEY, "light");
 
+        appLoad = (TextView) findViewById(R.id.appLoad);
+        dyk = (TextView) findViewById(R.id.dyk);
         cyberFacts = (TextView) findViewById(R.id.cyberFacts);
+        themeTV = (TextView) findViewById(R.id.themeTV);
         picOfFact = (ImageView) findViewById(R.id.picOfFact);
         doneBTN = (Button) findViewById(R.id.doneBTN);
+        radio_light = (RadioButton) findViewById(R.id.radio_light);
+        radio_dark = (RadioButton) findViewById(R.id.radio_dark);
+        radio_cream = (RadioButton) findViewById(R.id.radio_cream);
+        radio_blue = (RadioButton) findViewById(R.id.radio_blue);
+        radio_lilac = (RadioButton) findViewById(R.id.radio_lilac);
         colourRG = (RadioGroup) findViewById(R.id.colourRG);
         mainScreen = (LinearLayout) findViewById(R.id.mainScreen);
 
         if(theme.equals("light")) {
-            mainScreen.setBackgroundColor(getResources().getColor(R.color.light_bg)); }
+            mainScreen.setBackgroundColor(getResources().getColor(R.color.light_bg));
+            doneBTN.setBackgroundColor(getResources().getColor(R.color.light_button));
+            appLoad.setTextColor(getResources().getColor(R.color.light_text));
+            dyk.setTextColor(getResources().getColor(R.color.light_text));
+            cyberFacts.setTextColor(getResources().getColor(R.color.light_text));
+            themeTV.setTextColor(getResources().getColor(R.color.light_text));
+            radio_light.setTextColor(getResources().getColor(R.color.light_text));
+            radio_dark.setTextColor(getResources().getColor(R.color.light_text));
+            radio_cream.setTextColor(getResources().getColor(R.color.light_text));
+            radio_blue.setTextColor(getResources().getColor(R.color.light_text));
+            radio_lilac.setTextColor(getResources().getColor(R.color.light_text));
+            doneBTN.setTextColor(getResources().getColor(R.color.light_buttontxt));
+        }
         if(theme.equals("dark")) {
-            mainScreen.setBackgroundColor(getResources().getColor(R.color.dark_bg)); }
+            mainScreen.setBackgroundColor(getResources().getColor(R.color.dark_bg));
+            doneBTN.setBackgroundColor(getResources().getColor(R.color.dark_button));
+            appLoad.setTextColor(getResources().getColor(R.color.dark_text));
+            dyk.setTextColor(getResources().getColor(R.color.dark_text));
+            cyberFacts.setTextColor(getResources().getColor(R.color.dark_text));
+            themeTV.setTextColor(getResources().getColor(R.color.dark_text));
+            radio_light.setTextColor(getResources().getColor(R.color.dark_text));
+            radio_dark.setTextColor(getResources().getColor(R.color.dark_text));
+            radio_cream.setTextColor(getResources().getColor(R.color.dark_text));
+            radio_blue.setTextColor(getResources().getColor(R.color.dark_text));
+            radio_lilac.setTextColor(getResources().getColor(R.color.dark_text));
+            doneBTN.setTextColor(getResources().getColor(R.color.dark_buttontxt));
+        }
         if(theme.equals("cream")) {
-            mainScreen.setBackgroundColor(getResources().getColor(R.color.cream_bg)); }
+            mainScreen.setBackgroundColor(getResources().getColor(R.color.cream_bg));
+            doneBTN.setBackgroundColor(getResources().getColor(R.color.cream_button));
+            appLoad.setTextColor(getResources().getColor(R.color.cream_text));
+            dyk.setTextColor(getResources().getColor(R.color.cream_text));
+            cyberFacts.setTextColor(getResources().getColor(R.color.cream_text));
+            themeTV.setTextColor(getResources().getColor(R.color.cream_text));
+            radio_light.setTextColor(getResources().getColor(R.color.cream_text));
+            radio_dark.setTextColor(getResources().getColor(R.color.cream_text));
+            radio_cream.setTextColor(getResources().getColor(R.color.cream_text));
+            radio_blue.setTextColor(getResources().getColor(R.color.cream_text));
+            radio_lilac.setTextColor(getResources().getColor(R.color.cream_text));
+            doneBTN.setTextColor(getResources().getColor(R.color.cream_buttontxt));
+        }
         if(theme.equals("blue")) {
-            mainScreen.setBackgroundColor(getResources().getColor(R.color.blue_bg)); }
+            mainScreen.setBackgroundColor(getResources().getColor(R.color.blue_bg));
+            doneBTN.setBackgroundColor(getResources().getColor(R.color.blue_button));
+            appLoad.setTextColor(getResources().getColor(R.color.blue_text));
+            dyk.setTextColor(getResources().getColor(R.color.blue_text));
+            cyberFacts.setTextColor(getResources().getColor(R.color.blue_text));
+            themeTV.setTextColor(getResources().getColor(R.color.blue_text));
+            radio_light.setTextColor(getResources().getColor(R.color.blue_text));
+            radio_dark.setTextColor(getResources().getColor(R.color.blue_text));
+            radio_cream.setTextColor(getResources().getColor(R.color.blue_text));
+            radio_blue.setTextColor(getResources().getColor(R.color.blue_text));
+            radio_lilac.setTextColor(getResources().getColor(R.color.blue_text));
+            doneBTN.setTextColor(getResources().getColor(R.color.blue_buttontxt));
+        }
         if(theme.equals("lilac")) {
-            mainScreen.setBackgroundColor(getResources().getColor(R.color.lilac_bg)); }
+            mainScreen.setBackgroundColor(getResources().getColor(R.color.lilac_bg));
+            doneBTN.setBackgroundColor(getResources().getColor(R.color.lilac_button));
+            appLoad.setTextColor(getResources().getColor(R.color.lilac_text));
+            dyk.setTextColor(getResources().getColor(R.color.lilac_text));
+            cyberFacts.setTextColor(getResources().getColor(R.color.lilac_text));
+            themeTV.setTextColor(getResources().getColor(R.color.lilac_text));
+            radio_light.setTextColor(getResources().getColor(R.color.lilac_text));
+            radio_dark.setTextColor(getResources().getColor(R.color.lilac_text));
+            radio_cream.setTextColor(getResources().getColor(R.color.lilac_text));
+            radio_blue.setTextColor(getResources().getColor(R.color.lilac_text));
+            radio_lilac.setTextColor(getResources().getColor(R.color.lilac_text));
+            doneBTN.setTextColor(getResources().getColor(R.color.lilac_buttontxt));
+        }
 
         factIndex = (int) (Math.random()*10);
         fact1 = new Facts(getString(R.string.fact1), R.drawable.fact1pic);
@@ -89,30 +160,85 @@ public class MainActivity extends AppCompatActivity {
 
                 if(radioButton.getId() == R.id.radio_light){
                     mainScreen.setBackgroundColor(getResources().getColor(R.color.light_bg));
+                    doneBTN.setBackgroundColor(getResources().getColor(R.color.light_button));
+                    appLoad.setTextColor(getResources().getColor(R.color.light_text));
+                    dyk.setTextColor(getResources().getColor(R.color.light_text));
+                    cyberFacts.setTextColor(getResources().getColor(R.color.light_text));
+                    themeTV.setTextColor(getResources().getColor(R.color.light_text));
+                    radio_light.setTextColor(getResources().getColor(R.color.light_text));
+                    radio_dark.setTextColor(getResources().getColor(R.color.light_text));
+                    radio_cream.setTextColor(getResources().getColor(R.color.light_text));
+                    radio_blue.setTextColor(getResources().getColor(R.color.light_text));
+                    radio_lilac.setTextColor(getResources().getColor(R.color.light_text));
+                    doneBTN.setTextColor(getResources().getColor(R.color.light_buttontxt));
                     theme = "light";
                     preferencesEditor.putString(COLOR_KEY, theme);
                     preferencesEditor.apply();
                 }
                 if(radioButton.getId() == R.id.radio_dark){
                     mainScreen.setBackgroundColor(getResources().getColor(R.color.dark_bg));
+                    doneBTN.setBackgroundColor(getResources().getColor(R.color.dark_button));
+                    appLoad.setTextColor(getResources().getColor(R.color.dark_text));
+                    dyk.setTextColor(getResources().getColor(R.color.dark_text));
+                    cyberFacts.setTextColor(getResources().getColor(R.color.dark_text));
+                    themeTV.setTextColor(getResources().getColor(R.color.dark_text));
+                    radio_light.setTextColor(getResources().getColor(R.color.dark_text));
+                    radio_dark.setTextColor(getResources().getColor(R.color.dark_text));
+                    radio_cream.setTextColor(getResources().getColor(R.color.dark_text));
+                    radio_blue.setTextColor(getResources().getColor(R.color.dark_text));
+                    radio_lilac.setTextColor(getResources().getColor(R.color.dark_text));
+                    doneBTN.setTextColor(getResources().getColor(R.color.dark_buttontxt));
                     theme = "dark";
                     preferencesEditor.putString(COLOR_KEY, theme);
                     preferencesEditor.apply();
                 }
                 if(radioButton.getId() == R.id.radio_cream){
                     mainScreen.setBackgroundColor(getResources().getColor(R.color.cream_bg));
+                    doneBTN.setBackgroundColor(getResources().getColor(R.color.cream_button));
+                    appLoad.setTextColor(getResources().getColor(R.color.cream_text));
+                    dyk.setTextColor(getResources().getColor(R.color.cream_text));
+                    cyberFacts.setTextColor(getResources().getColor(R.color.cream_text));
+                    themeTV.setTextColor(getResources().getColor(R.color.cream_text));
+                    radio_light.setTextColor(getResources().getColor(R.color.cream_text));
+                    radio_dark.setTextColor(getResources().getColor(R.color.cream_text));
+                    radio_cream.setTextColor(getResources().getColor(R.color.cream_text));
+                    radio_blue.setTextColor(getResources().getColor(R.color.cream_text));
+                    radio_lilac.setTextColor(getResources().getColor(R.color.cream_text));
+                    doneBTN.setTextColor(getResources().getColor(R.color.cream_buttontxt));
                     theme = "cream";
                     preferencesEditor.putString(COLOR_KEY, theme);
                     preferencesEditor.apply();
                 }
                 if(radioButton.getId() == R.id.radio_blue){
                     mainScreen.setBackgroundColor(getResources().getColor(R.color.blue_bg));
+                    doneBTN.setBackgroundColor(getResources().getColor(R.color.blue_button));
+                    appLoad.setTextColor(getResources().getColor(R.color.blue_text));
+                    dyk.setTextColor(getResources().getColor(R.color.blue_text));
+                    cyberFacts.setTextColor(getResources().getColor(R.color.blue_text));
+                    themeTV.setTextColor(getResources().getColor(R.color.blue_text));
+                    radio_light.setTextColor(getResources().getColor(R.color.blue_text));
+                    radio_dark.setTextColor(getResources().getColor(R.color.blue_text));
+                    radio_cream.setTextColor(getResources().getColor(R.color.blue_text));
+                    radio_blue.setTextColor(getResources().getColor(R.color.blue_text));
+                    radio_lilac.setTextColor(getResources().getColor(R.color.blue_text));
+                    doneBTN.setTextColor(getResources().getColor(R.color.blue_buttontxt));
                     theme = "blue";
                     preferencesEditor.putString(COLOR_KEY, theme);
                     preferencesEditor.apply();
                 }
                 if(radioButton.getId() == R.id.radio_lilac){
                     mainScreen.setBackgroundColor(getResources().getColor(R.color.lilac_bg));
+                    doneBTN.setBackgroundColor(getResources().getColor(R.color.lilac_button));
+                    appLoad.setTextColor(getResources().getColor(R.color.lilac_text));
+                    dyk.setTextColor(getResources().getColor(R.color.lilac_text));
+                    cyberFacts.setTextColor(getResources().getColor(R.color.lilac_text));
+                    themeTV.setTextColor(getResources().getColor(R.color.lilac_text));
+                    radio_light.setTextColor(getResources().getColor(R.color.lilac_text));
+                    radio_dark.setTextColor(getResources().getColor(R.color.lilac_text));
+                    radio_cream.setTextColor(getResources().getColor(R.color.lilac_text));
+                    radio_blue.setTextColor(getResources().getColor(R.color.lilac_text));
+                    radio_lilac.setTextColor(getResources().getColor(R.color.lilac_text));
+                    doneBTN.setTextColor(getResources().getColor(R.color.lilac_buttontxt));
                     theme = "lilac";
                     preferencesEditor.putString(COLOR_KEY, theme);
                     preferencesEditor.apply();

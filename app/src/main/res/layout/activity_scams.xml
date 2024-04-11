@@ -109,18 +109,7 @@
                 android:layout_width="367dp"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-medium"
-                android:text="@string/screentxt"
-                android:textSize="17sp" />
-
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="30dp"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
-                android:text="Some links you might find helpful:\n- Book\n- Article\n- Book"
+                android:text="@string/scamtxt"
                 android:textSize="17sp" />
 
             <Space

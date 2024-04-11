@@ -13,7 +13,7 @@
 
     <style name="LightButton" >
         <item name="android:background">@color/light_button</item>
-        <item name="android:textColor">@color/light_buttontxt</item>
+        <item name="android:textColor">@color/light_text</item>
     </style>
 
     <style name="DarkButton" >

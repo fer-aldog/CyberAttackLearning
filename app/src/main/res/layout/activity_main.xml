@@ -10,6 +10,7 @@
     android:orientation="vertical">
 
     <TextView
+        android:id="@+id/appLoad"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-black"
@@ -22,6 +23,7 @@
         android:layout_height="20dp"/>
 
     <TextView
+        android:id="@+id/dyk"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/alata"
@@ -38,7 +40,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/alata"
-        android:text="@string/fact10"
+        android:text="@string/fact1"
         android:textSize="18sp" />
 
     <Space
@@ -57,6 +59,7 @@
         android:layout_height="30dp"/>
 
     <TextView
+        android:id="@+id/themeTV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/alata"
@@ -124,6 +127,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="DONE"
-        app:backgroundTint="#808080"
+        app:backgroundTint="#B6B6B6"
         app:cornerRadius="5sp" />
 </LinearLayout>

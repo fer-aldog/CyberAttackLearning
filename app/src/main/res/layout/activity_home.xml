@@ -74,6 +74,7 @@
         android:orientation="vertical">
 
         <TextView
+            android:id="@+id/header"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-black"
@@ -95,6 +96,7 @@
             android:layout_height="30dp" />
 
         <TextView
+            android:id="@+id/summary"
             android:gravity="center"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -107,6 +109,7 @@
             android:layout_height="35dp" />
 
         <TextView
+            android:id="@+id/checkOut"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-medium"
