@@ -32,13 +32,13 @@ public class HomeActivity extends AppCompatActivity {
         homeScreen = (LinearLayout) findViewById(R.id.homeScreen);
         buttonBar = (LinearLayout) findViewById(R.id.buttonBar);
         homeBTN = (Button) findViewById(R.id.homeBTN);
-        header = (TextView) findViewById(R.id.header);
-        summary = (TextView) findViewById(R.id.summary);
-        checkOut = (TextView) findViewById(R.id.checkOut);
         malwareBTN = (Button) findViewById(R.id.malwareBTN);
         scamBTN = (Button) findViewById(R.id.scamBTN);
         virusBTN = (Button) findViewById(R.id.virusBTN);
         quizBTN = (Button) findViewById(R.id.quizBTN);
+        header = (TextView) findViewById(R.id.header);
+        summary = (TextView) findViewById(R.id.summary);
+        checkOut = (TextView) findViewById(R.id.checkOut);
         link1BTN = (Button) findViewById(R.id.link1BTN);
         link2BTN = (Button) findViewById(R.id.link2BTN);
 

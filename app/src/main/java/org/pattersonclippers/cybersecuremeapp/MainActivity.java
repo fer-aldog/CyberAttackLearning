@@ -43,19 +43,19 @@ public class MainActivity extends AppCompatActivity {
         preferencesEditor = mySharedPreferences.edit();
         theme = mySharedPreferences.getString(COLOR_KEY, "light");
 
+        mainScreen = (LinearLayout) findViewById(R.id.mainScreen);
         appLoad = (TextView) findViewById(R.id.appLoad);
         dyk = (TextView) findViewById(R.id.dyk);
         cyberFacts = (TextView) findViewById(R.id.cyberFacts);
-        themeTV = (TextView) findViewById(R.id.themeTV);
         picOfFact = (ImageView) findViewById(R.id.picOfFact);
-        doneBTN = (Button) findViewById(R.id.doneBTN);
+        themeTV = (TextView) findViewById(R.id.themeTV);
+        colourRG = (RadioGroup) findViewById(R.id.colourRG);
         radio_light = (RadioButton) findViewById(R.id.radio_light);
         radio_dark = (RadioButton) findViewById(R.id.radio_dark);
         radio_cream = (RadioButton) findViewById(R.id.radio_cream);
         radio_blue = (RadioButton) findViewById(R.id.radio_blue);
         radio_lilac = (RadioButton) findViewById(R.id.radio_lilac);
-        colourRG = (RadioGroup) findViewById(R.id.colourRG);
-        mainScreen = (LinearLayout) findViewById(R.id.mainScreen);
+        doneBTN = (Button) findViewById(R.id.doneBTN);
 
         if(theme.equals("light")) {
             mainScreen.setBackgroundColor(getResources().getColor(R.color.light_bg));

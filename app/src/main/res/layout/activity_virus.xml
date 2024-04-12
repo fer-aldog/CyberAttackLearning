@@ -82,6 +82,7 @@
             android:orientation="vertical">
 
             <TextView
+                android:id="@+id/header"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-black"
@@ -105,6 +106,7 @@
                 android:layout_height="30dp"/>
 
             <TextView
+                android:id="@+id/article"
                 android:layout_width="367dp"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-medium"
