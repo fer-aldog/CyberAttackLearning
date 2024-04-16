@@ -12,7 +12,7 @@ import android.widget.TextView;
 
 public class VirusActivity extends AppCompatActivity {
 
-    Button homeBTN, malwareBTN, scamBTN, virusBTN, quizBTN;
+    Button homeBTN, malwareBTN, scamBTN, virusBTN; //quizBTN;
     LinearLayout virusScreen, buttonBar;
     TextView header, article;
 
@@ -35,7 +35,7 @@ public class VirusActivity extends AppCompatActivity {
         malwareBTN = (Button) findViewById(R.id.malwareBTN);
         scamBTN = (Button) findViewById(R.id.scamBTN);
         virusBTN = (Button) findViewById(R.id.virusBTN);
-        quizBTN = (Button) findViewById(R.id.quizBTN);
+        //quizBTN = (Button) findViewById(R.id.quizBTN);
         header = (TextView) findViewById(R.id.header);
         article = (TextView) findViewById(R.id.article);
 
@@ -46,7 +46,7 @@ public class VirusActivity extends AppCompatActivity {
             homeBTN.setTextColor(getResources().getColor(R.color.light_inactivetxt));
             malwareBTN.setTextColor(getResources().getColor(R.color.light_inactivetxt));
             scamBTN.setTextColor(getResources().getColor(R.color.light_inactivetxt));
-            quizBTN.setTextColor(getResources().getColor(R.color.light_inactivetxt));
+            //quizBTN.setTextColor(getResources().getColor(R.color.light_inactivetxt));
             header.setTextColor(getResources().getColor(R.color.light_text));
             article.setTextColor(getResources().getColor(R.color.light_text));
         }
@@ -57,7 +57,7 @@ public class VirusActivity extends AppCompatActivity {
             homeBTN.setTextColor(getResources().getColor(R.color.dark_inactivetxt));
             malwareBTN.setTextColor(getResources().getColor(R.color.dark_inactivetxt));
             scamBTN.setTextColor(getResources().getColor(R.color.dark_inactivetxt));
-            quizBTN.setTextColor(getResources().getColor(R.color.dark_inactivetxt));
+            //quizBTN.setTextColor(getResources().getColor(R.color.dark_inactivetxt));
             header.setTextColor(getResources().getColor(R.color.dark_text));
             article.setTextColor(getResources().getColor(R.color.dark_text));
         }
@@ -68,7 +68,7 @@ public class VirusActivity extends AppCompatActivity {
             homeBTN.setTextColor(getResources().getColor(R.color.cream_inactivetxt));
             malwareBTN.setTextColor(getResources().getColor(R.color.cream_inactivetxt));
             scamBTN.setTextColor(getResources().getColor(R.color.cream_inactivetxt));
-            quizBTN.setTextColor(getResources().getColor(R.color.cream_inactivetxt));
+            //quizBTN.setTextColor(getResources().getColor(R.color.cream_inactivetxt));
             header.setTextColor(getResources().getColor(R.color.cream_text));
             article.setTextColor(getResources().getColor(R.color.cream_text));
         }
@@ -79,7 +79,7 @@ public class VirusActivity extends AppCompatActivity {
             homeBTN.setTextColor(getResources().getColor(R.color.blue_inactivetxt));
             malwareBTN.setTextColor(getResources().getColor(R.color.blue_inactivetxt));
             scamBTN.setTextColor(getResources().getColor(R.color.blue_inactivetxt));
-            quizBTN.setTextColor(getResources().getColor(R.color.blue_inactivetxt));
+            //quizBTN.setTextColor(getResources().getColor(R.color.blue_inactivetxt));
             header.setTextColor(getResources().getColor(R.color.blue_text));
             article.setTextColor(getResources().getColor(R.color.blue_text));
         }
@@ -90,7 +90,7 @@ public class VirusActivity extends AppCompatActivity {
             homeBTN.setTextColor(getResources().getColor(R.color.lilac_inactivetxt));
             malwareBTN.setTextColor(getResources().getColor(R.color.lilac_inactivetxt));
             scamBTN.setTextColor(getResources().getColor(R.color.lilac_inactivetxt));
-            quizBTN.setTextColor(getResources().getColor(R.color.lilac_inactivetxt));
+            //quizBTN.setTextColor(getResources().getColor(R.color.lilac_inactivetxt));
             header.setTextColor(getResources().getColor(R.color.lilac_text));
             article.setTextColor(getResources().getColor(R.color.lilac_text));
         }
@@ -119,12 +119,12 @@ public class VirusActivity extends AppCompatActivity {
             }
         });
 
-        quizBTN.setOnClickListener(new View.OnClickListener() {
+        /*quizBTN.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent myIntent = new Intent(VirusActivity.this, QuizActivity.class);
                 startActivity(myIntent);
             }
-        });
+        });*/
     }
 }

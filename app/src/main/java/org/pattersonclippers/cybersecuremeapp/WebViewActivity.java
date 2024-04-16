@@ -24,11 +24,13 @@ public class WebViewActivity extends AppCompatActivity {
 
         if (whichLink == "link1") {
             websiteWV.loadUrl("https://www.itgovernanceusa.com/blog/data-breaches-and-cyber-attacks-in-2024-in-the-usa");
+            websiteWV.getSettings().setJavaScriptEnabled(true);
+            websiteWV.setWebViewClient(new WebViewClient());
         }
         if (whichLink == "link2") {
             websiteWV.loadUrl("https://www.ekransystem.com/en/blog/best-cyber-security-practices");
+            websiteWV.getSettings().setJavaScriptEnabled(true);
+            websiteWV.setWebViewClient(new WebViewClient());
         }
-        websiteWV.getSettings().setJavaScriptEnabled(true);
-        websiteWV.setWebViewClient(new WebViewClient());
     }
 }
