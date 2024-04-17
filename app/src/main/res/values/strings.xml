@@ -12,24 +12,24 @@
 
     <string name="malwaretxt">Malware, short for malicious software, is a type
         \nof program or code that intentionally harms
-        \na computer to disrupt its normal operations and/or functionality.
+        \na computer to disrupt its normal operations and\/or functionality.
         \n\nThere are different types of malware:
-        \n• Adware
-        \n• Ransomware
-        \n• Spyware
-        \n• Rootkit
-        \n• Trojan Horse
-        \n• Virus
-        \n• Worm
-        \n• Keyloggers
-        \n• Bots
+        \n- Adware
+        \n- Ransomware
+        \n- Spyware
+        \n- Rootkit
+        \n- Trojan Horse
+        \n- Virus
+        \n- Worm
+        \n- Keyloggers
+        \n- Bots
         \n\nTo protect yourself against malware, you can:
-        \n• Download antimalware software
-        \n• Download apps or files only from trusted websites
-        \n• Check developer descriptions
-        \n• Do not click on unverified links
-        \n• Keep operating system and apps updated.
-        \n\nSources:\n• https://thecyphere.com/blog/types-of-malware/</string>
+        \n- Download antimalware software
+        \n- Download apps or files only from trusted websites
+        \n- Check developer descriptions
+        \n- Do not click on unverified links
+        \n- Keep operating system and apps updated.
+        \n\nSources:\n- https:\/\/thecyphere.com\/blog\/types-of-malware\/</string>
 
     <string name="virustxt">Computer viruses are a type of malware whose\npurpose
         is to destroy data by attaching itself to\nmultiple files, just like
@@ -37,37 +37,36 @@
         \nfrom the internet, using unpatched software,\npen drives, or clicking on
         email attachments.
         \n\nThere are different types of viruses:
-        \n• Boot sector
-        \n• Multipartite
-        \n• Spacefiller
-        \n• Resident
-        \n• Polymorphic
-        \n• File infector
-        \n• Direct Action
-        \n• Macro
+        \n- Boot sector
+        \n- Multipartite
+        \n- Spacefiller
+        \n- Resident
+        \n- Polymorphic
+        \n- File infector
+        \n- Direct Action
+        \n- Macro
         \n\nTo protect yourself against viruses, you can:
-        \n• Installing virus detection or antivirus software
-        \n• Be sure the links you click on haven't been tampered with.
-        \n\nSources:\n• https://thecyphere.com/blog/types-of-malware/</string>
+        \n- Installing virus detection or antivirus software
+        \n- Be sure the links you click on haven\'t been tampered with.
+        \n\nSources:\n- https:\/\/thecyphere.com\/blog\/types-of-malware\/</string>
 
     <string name="scamtxt">Scams are well-known to be deceptive\npractices where someone
         tricks you into\nthinking that what they’re offering has no\ncatch at all.
         \n\nThe same thing goes with Internet scams. Internet scams can come in all forms.
         \n\nThere is a different type of scam called phishing, and it comes in many forms:
-        \n• Angler Phishing
-        \n• Clone Phishing
-        \n• Email Phishing and Sextortion
-        \n• Pharming
-        \n• Pop-up Phishing
-        \n• Search Engine Phishing
-        \n• Smishing and Vishing
-        \n• Spear Phishing
-        \n• Whaling
-        \n\nSources:\n• https://www.itgovernance.eu/blog/en/the-5-most-common-types-of-phishing-attack
-        \n• https://www.trendmicro.com/en_us/what-is/phishing/types-of-phishing.html
-        \n• https://www.bluevoyant.com/knowledge-center/8-phishing-types-and-how-to-prevent-them
-        \n• https://www.upguard.com/blog/types-of-phishing-attacks
-</string>
+        \n- Angler Phishing
+        \n- Clone Phishing
+        \n- Email Phishing and Sextortion
+        \n- Pharming
+        \n- Pop-up Phishing
+        \n- Search Engine Phishing
+        \n- Smishing and Vishing
+        \n- Spear Phishing
+        \n- Whaling
+        \n\nSources:\n- https:\/\/www.itgovernance.eu\/blog\/en\/the-5-most-common-types-of-phishing-attack
+        \n- https:\/\/www.trendmicro.com\/en\_us\/what-is\/phishing\/types-of-phishing.html
+        \n- https:\/\/www.bluevoyant.com\/knowledge-center\/8-phishing-types-and-how-to-prevent-them
+        \n- https:\/\/www.upguard.com\/blog\/types-of-phishing-attacks</string>
 
     <string name="fact1">People lost $10 billion to scams\nin 2023, according to the FTC.</string>
     <string name="fact2">In 1986, the very first computer virus, a\nboot sector virus called Brain, was made.</string>
