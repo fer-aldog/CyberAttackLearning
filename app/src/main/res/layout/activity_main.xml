@@ -49,8 +49,8 @@
 
     <ImageView
         android:id="@+id/picOfFact"
-        android:layout_width="320dp"
-        android:layout_height="180dp"
+        android:layout_width="320sp"
+        android:layout_height="180sp"
         tools:srcCompat="@drawable/fact1pic"
         android:scaleType="centerCrop"/>
 

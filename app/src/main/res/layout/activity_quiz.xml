@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView android:layout_width="match_parent"
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:fillViewport="true" >
 
-    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#F1F1F1"
@@ -141,7 +141,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="sans-serif-medium"
-                        android:text="Name of game"
+                        android:text="Fill In The Blank"
                         android:textColor="@color/white"
                         android:textSize="17sp" />
 
@@ -149,7 +149,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="sans-serif-medium"
-                        android:text="Topic: malware"
+                        android:text="High score: 0"
                         android:textColor="@color/white"
                         android:textSize="14sp" />
 
@@ -210,7 +210,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="sans-serif-medium"
-                        android:text="Name of game"
+                        android:text="Match Quiz"
                         android:textColor="@color/white"
                         android:textSize="17sp" />
 
@@ -218,7 +218,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="sans-serif-medium"
-                        android:text="Topic: viruses"
+                        android:text="High score: 0"
                         android:textColor="@color/white"
                         android:textSize="14sp" />
 
@@ -280,7 +280,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="sans-serif-medium"
-                        android:text="Name of game"
+                        android:text="Multiple Choice"
                         android:textColor="@color/white"
                         android:textSize="17sp" />
 
@@ -288,7 +288,77 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="sans-serif-medium"
-                        android:text="Topic: scams)"
+                        android:text="High score: 0"
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+
+                    <Space
+                        android:layout_width="1dp"
+                        android:layout_height="8dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif"
+                        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing\nelit. Fusce convallis pellentesque metus id lacinia.\nNunc dapibus pulvinar auctor. Duis nec sem at orci\ncommodo viverra id in ipsum"
+                        android:textColor="#BDBDBD"
+                        android:textSize="14sp" />
+
+
+                    <!--android:layout_width="73dp"-->
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="2dp"
+                        android:text="COMING SOON"
+                        android:textColor="#E1E1E1"
+                        app:backgroundTint="#434343"
+                        app:cornerRadius="5sp" />
+
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="11dp"
+                    android:layout_height="1dp" />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="30dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#434343"
+                android:orientation="horizontal">
+
+                <Space
+                    android:layout_width="9dp"
+                    android:layout_height="1dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <Space
+                        android:layout_width="1dp"
+                        android:layout_height="9dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="True or False"
+                        android:textColor="@color/white"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="High score: 0"
                         android:textColor="@color/white"
                         android:textSize="14sp" />
 
