@@ -11,7 +11,7 @@ import android.widget.LinearLayout;
 
 public class QuizActivity extends AppCompatActivity {
 
-    Button homeBTN, malwareBTN, scamBTN, virusBTN, quizBTN;
+    Button homeBTN, malwareBTN, scamBTN, virusBTN, quizBTN, fillBlankBTN, trueFalseBTN;
     LinearLayout quizScreen;
 
     String theme;
@@ -33,6 +33,8 @@ public class QuizActivity extends AppCompatActivity {
         scamBTN = (Button) findViewById(R.id.scamBTN);
         virusBTN = (Button) findViewById(R.id.virusBTN);
         quizBTN = (Button) findViewById(R.id.quizBTN);
+        fillBlankBTN = (Button) findViewById(R.id.fillBlankBTN);
+        trueFalseBTN = (Button) findViewById(R.id.trueFalseBTN);
 
         if(theme.equals("light")) {
             quizScreen.setBackgroundColor(getResources().getColor(R.color.light_bg)); }
@@ -73,6 +75,22 @@ public class QuizActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent myIntent = new Intent(QuizActivity.this, VirusActivity.class);
+                startActivity(myIntent);
+            }
+        });
+
+        fillBlankBTN.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent myIntent = new Intent(QuizActivity.this, FitbActivity.class);
+                startActivity(myIntent);
+            }
+        });
+
+        trueFalseBTN.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent myIntent = new Intent(QuizActivity.this, TruefalseActivity.class);
                 startActivity(myIntent);
             }
         });

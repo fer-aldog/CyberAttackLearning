@@ -11,7 +11,7 @@
 
     <string name="malwaretxt">Malware, short for malicious software, is a type
         \nof program or code that intentionally harms
-        \na computer to disrupt its normal operations and\/or functionality.
+        \na computer to disrupt its normal operations and/or functionality.
         \n\nThere are different types of malware:
         \n- Adware
         \n- Ransomware
@@ -28,26 +28,45 @@
         \n- Check developer descriptions
         \n- Do not click on unverified links
         \n- Keep operating system and apps updated.
-        \n\nSources:\n- https:\/\/thecyphere.com\/blog\/types-of-malware\/</string>
+        \n\nSources:\n- https://thecyphere.com/blog/types-of-malware/</string>
 
     <string name="virustxt">Computer viruses are a type of malware whose\npurpose
         is to destroy data by attaching itself to\nmultiple files, just like
-        an actual, physical virus. Viruses can happen through downloading files
-        \nfrom the internet, using unpatched software,\npen drives, or clicking on
-        email attachments.
+        an actual, physical virus. Hackers like to create some sort of\ndisruption,
+        thinking of it like some funny prank. But others do it to deliberately cause\n
+        harm to other people. Through downloading files from the internet, using
+        packaged/unpatched software,pen drives, clicking on email attachments or USBs
+        and hard drives, the computer gets a program or file with the virus.
+        When you open a file or run a program with it, the host computer gets infected.
+        Then the virus starts spreading itself to other parts of the computer
+        or to other computers.
         \n\nThere are different types of viruses:
-        \n- Boot sector
-        \n- Multipartite
-        \n- Spacefiller
-        \n- Resident
-        \n- Polymorphic
-        \n- File infector
-        \n- Direct Action
-        \n- Macro
+        \n- Boot sector: This type of virus destroys a computer through its
+        core. It attaches itself on floppy disks, USB drives, or emails, and
+        once activated, it heads straight to the master boot record and
+        disrupts the computer’s startup process.
+        \n- Direct Action:
+        \n- Macro:
+        \n- Multipartite:
+        \n- Overwrite virus:
+        \n- Polymorphic:
+        \n- Resident:
+        \n- Spacefiller:
         \n\nTo protect yourself against viruses, you can:
+        \n- Back files up
+        \n- Do a virus scan
+        \n- Don’t click on suspicious links or pop-ups
         \n- Installing virus detection or antivirus software
-        \n- Be sure the links you click on haven\'t been tampered with.
-        \n\nSources:\n- https:\/\/thecyphere.com\/blog\/types-of-malware\/</string>
+        \n- Using a firewall
+        \n\nSources:
+        \n- https://www.buddycompany.com/post/types-of-computer-virus
+        \n- https://hightouchtechnologies.com/9-common-types-of-computer-viruses/
+        \n- https://logixconsulting.com/2021/06/15/what-is-a-direct-action-computer-virus/
+        \n- https://www.malwarebytes.com/macro-virus
+        \n- https://www.kyoceradocumentsolutions.com/in/en/about-us/blog/8-common-types-of-computer-viruses.html
+        \n- https://www.trendmicro.com/vinfo/us/security/definition/polymorphic-virus
+        \n- https://allaboutcookies.org/what-is-a-computer-virus
+        \n- https://www.mcafee.com/learn/computer-viruses/</string>
 
     <string name="scamtxt">Scams are well-known to be deceptive\npractices where someone
         tricks you into\nthinking that what they’re offering has no\ncatch at all.
@@ -62,10 +81,10 @@
         \n- Smishing and Vishing
         \n- Spear Phishing
         \n- Whaling
-        \n\nSources:\n- https:\/\/www.itgovernance.eu\/blog\/en\/the-5-most-common-types-of-phishing-attack
-        \n- https:\/\/www.trendmicro.com\/en\_us\/what-is\/phishing\/types-of-phishing.html
-        \n- https:\/\/www.bluevoyant.com\/knowledge-center\/8-phishing-types-and-how-to-prevent-them
-        \n- https:\/\/www.upguard.com\/blog\/types-of-phishing-attacks</string>
+        \n\nSources:\n- https://www.itgovernance.eu/blog/en/the-5-most-common-types-of-phishing-attack
+        \n- https://www.trendmicro.com/en_us/what-is/phishing/types-of-phishing.html
+        \n- https://www.bluevoyant.com/knowledge-center/8-phishing-types-and-how-to-prevent-them
+        \n- https://www.upguard.com/blog/types-of-phishing-attacks</string>
 
     <string name="fact1">People lost $10 billion to scams\nin 2023, according to the FTC.</string>
     <string name="fact2">In 1986, the very first computer virus, a\nboot sector virus called Brain, was made.</string>
@@ -77,48 +96,43 @@
     <string name="fact8">Two-factor authentication alarms users of\nother devices trying to get in the account.</string>
     <string name="fact9">Products online with too-good-to-be-true\nprices are usually too good to be true.</string>
     <string name="fact10">Thoroughly reading mail you receive from\nbusinesses may prevent scams or malware.</string>
-    <string name="title_activity_fit_bactivity">FitBActivity</string>
-    <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
-    <string name="next">Next</string>
-    <string name="previous">Previous</string>
 
-    <string name="lorem_ipsum">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
-        volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
-        dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
-        litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend
-        diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,
-        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.\n\n
-        Suspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus
-        egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed
-        neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae,
-        molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor
-        bibendum, vel congue leo egestas.\n\n
-        Sed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit
-        amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel,
-        molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer
-        interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at
-        lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula,
-        in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque
-        est.\n\n
-        Aenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh.
-        Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui
-        non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In
-        eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc,
-        quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra
-        ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a
-        placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus
-        convallis.\n\n
-        Phasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et
-        malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa
-        gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper,
-        libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper
-        sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus
-        libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
-        vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
-    </string>
-    <string name="title_activity_fitbactivity">FITBActivity</string>
+    <string name="fitbDesc">A quiz where you fill the blanks of a sentence and\ntry to get the
+        correct answer! Contains a total of
+        \n10 questions with a 15-question pool.</string>
+    <string name="tfDesc">A true or false quiz filled with questions about
+        \nmalware, viruses, and scams! Contains a total of
+        \n10 questions with a 15-question pool.</string>
+
+    <string name="fitbq1">malware.</string>
+    <string name="fitbq2">malware.</string>
+    <string name="fitbq3">malware.</string>
+    <string name="fitbq4">malware.</string>
+    <string name="fitbq5">malware.</string>
+    <string name="fitbq6">virus.</string>
+    <string name="fitbq7">virus.</string>
+    <string name="fitbq8">virus.</string>
+    <string name="fitbq9">virus.</string>
+    <string name="fitbq10">virus.</string>
+    <string name="fitbq11">scams.</string>
+    <string name="fitbq12">scams.</string>
+    <string name="fitbq13">scams.</string>
+    <string name="fitbq14">scams.</string>
+    <string name="fitbq15">scams.</string>
+
+    <string name="tfq1">Spyware is a type of malware.</string>
+    <string name="tfq2">falsemalware.</string>
+    <string name="tfq3">malware.</string>
+    <string name="tfq4">falsemalware.</string>
+    <string name="tfq5">malware.</string>
+    <string name="tfq6">Spacefillers are rare viruses because it has a different encryption key each time it replicates.</string>
+    <string name="tfq7">Resident viruses hide in a computer’s memory.</string>
+    <string name="tfq8">Viruses can be avoided by using bynewalls.</string>
+    <string name="tfq9">Executable files are dangerous.</string>
+    <string name="tfq10">Backing files up is useless because they can be overwritten anyway.</string>
+    <string name="tfq11">Scams.</string>
+    <string name="tfq12">falsescams.</string>
+    <string name="tfq13">scams.</string>
+    <string name="tfq14">falsescams.</string>
+    <string name="tfq15">scams.</string>
 </resources>

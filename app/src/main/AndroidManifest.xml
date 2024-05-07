@@ -15,13 +15,11 @@
         android:theme="@style/Theme.CyberAttackLearning"
         tools:targetApi="31">
         <activity
-            android:name=".FitbActivity"
+            android:name=".TruefalseActivity"
             android:exported="false" />
         <activity
-            android:name=".FITBActivity"
-            android:exported="false"
-            android:label="@string/title_activity_fitbactivity"
-            android:theme="@style/Theme.CyberAttackLearning" />
+            android:name=".FitbActivity"
+            android:exported="false" />
         <activity
             android:name=".VirusActivity"
             android:exported="false" />

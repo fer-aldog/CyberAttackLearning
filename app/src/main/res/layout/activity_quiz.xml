@@ -161,16 +161,17 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="sans-serif"
-                        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing\nelit. Fusce convallis pellentesque metus id lacinia.\nNunc dapibus pulvinar auctor. Duis nec sem at orci\ncommodo viverra id in ipsum"
+                        android:text="@string/fitbDesc"
                         android:textColor="#BDBDBD"
                         android:textSize="14sp" />
 
                     <!--android:layout_width="73dp"-->
                     <Button
+                        android:id="@+id/fillBlankBTN"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingLeft="2dp"
-                        android:text="COMING SOON"
+                        android:text="PLAY"
                         android:textColor="#E1E1E1"
                         app:backgroundTint="#434343"
                         app:cornerRadius="5sp" />
@@ -187,7 +188,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="30dp" />
 
-            <LinearLayout
+            <!--<LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="#434343"
@@ -234,8 +235,6 @@
                         android:textColor="#BDBDBD"
                         android:textSize="14sp" />
 
-
-                    <!--android:layout_width="73dp"-->
                     <Button
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -304,8 +303,6 @@
                         android:textColor="#BDBDBD"
                         android:textSize="14sp" />
 
-
-                    <!--android:layout_width="73dp"-->
                     <Button
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -325,7 +322,7 @@
 
             <Space
                 android:layout_width="wrap_content"
-                android:layout_height="30dp" />
+                android:layout_height="30dp" />-->
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -370,17 +367,16 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="sans-serif"
-                        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing\nelit. Fusce convallis pellentesque metus id lacinia.\nNunc dapibus pulvinar auctor. Duis nec sem at orci\ncommodo viverra id in ipsum"
+                        android:text="@string/tfDesc"
                         android:textColor="#BDBDBD"
                         android:textSize="14sp" />
 
-
-                    <!--android:layout_width="73dp"-->
                     <Button
+                        android:id="@+id/trueFalseBTN"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingLeft="2dp"
-                        android:text="COMING SOON"
+                        android:text="PLAY"
                         android:textColor="#E1E1E1"
                         app:backgroundTint="#434343"
                         app:cornerRadius="5sp" />
@@ -392,10 +388,6 @@
                     android:layout_height="1dp" />
 
             </LinearLayout>
-
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="30dp" />
         </LinearLayout>
     </LinearLayout>
 
