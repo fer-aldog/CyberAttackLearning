@@ -1,24 +1,22 @@
 package org.pattersonclippers.cyberlearningapp;
 
 public class Question {
-    private String qText;
-    private boolean correctAnswer;
+    private String qText, correctAnswer;
 
     public Question() {
         qText = "None";
-        correctAnswer = true;
+        correctAnswer = "true";
     }
-    public Question(String newQText, boolean newCorrectAnswer) {
+    public Question(String newQText, String newCorrectAnswer) {
         qText = newQText;
         correctAnswer = newCorrectAnswer;
     }
 
-
     public String getqText() { return qText; }
-    public boolean getCorrectAnswer() { return correctAnswer; }
-    public void setqText(String qText) { this.qText = qText; }
-    public void setCorrectAnswer(boolean correctAnswer) { this.correctAnswer = correctAnswer; }
+    public String getCorrectAnswer() { return correctAnswer; }
 
+    public void setqText(String qText) { this.qText = qText; }
+    public void setCorrectAnswer(String correctAnswer) { this.correctAnswer = correctAnswer; }
 
     @Override
     public String toString() {

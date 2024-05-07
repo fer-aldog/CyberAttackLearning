@@ -37,21 +37,21 @@ public class TruefalseActivity extends AppCompatActivity {
         totalQs = 10;
         score = 0;
 
-        q1 = new Question(getString(R.string.tfq1), true);
-        q2 = new Question(getString(R.string.tfq2), false);
-        q3 = new Question(getString(R.string.tfq3), true);
-        q4 = new Question(getString(R.string.tfq4), false);
-        q5 = new Question(getString(R.string.tfq5), true);
-        q6 = new Question(getString(R.string.tfq6), false);
-        q7 = new Question(getString(R.string.tfq7), true);
-        q8 = new Question(getString(R.string.tfq8), false);
-        q9 = new Question(getString(R.string.tfq9), true);
-        q10 = new Question(getString(R.string.tfq10), false);
-        q11 = new Question(getString(R.string.tfq11), true);
-        q12 = new Question(getString(R.string.tfq12), false);
-        q13 = new Question(getString(R.string.tfq13), true);
-        q14 = new Question(getString(R.string.tfq14), false);
-        q15 = new Question(getString(R.string.tfq15), true);
+        q1 = new Question(getString(R.string.tfq1), "true");
+        q2 = new Question(getString(R.string.tfq2), "false");
+        q3 = new Question(getString(R.string.tfq3), "true");
+        q4 = new Question(getString(R.string.tfq4), "false");
+        q5 = new Question(getString(R.string.tfq5), "true");
+        q6 = new Question(getString(R.string.tfq6), "false");
+        q7 = new Question(getString(R.string.tfq7), "true");
+        q8 = new Question(getString(R.string.tfq8), "false");
+        q9 = new Question(getString(R.string.tfq9), "true");
+        q10 = new Question(getString(R.string.tfq10), "false");
+        q11 = new Question(getString(R.string.tfq11), "true");
+        q12 = new Question(getString(R.string.tfq12), "false");
+        q13 = new Question(getString(R.string.tfq13), "true");
+        q14 = new Question(getString(R.string.tfq14), "false");
+        q15 = new Question(getString(R.string.tfq15), "true");
 
         unusedQuestions = new ArrayList<Question>();
         toBeAnswered = new ArrayList<Question>();
@@ -81,7 +81,7 @@ public class TruefalseActivity extends AppCompatActivity {
         trueBTN.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(currentQ.getCorrectAnswer() == true) {
+                if(currentQ.getCorrectAnswer().equals("true")) {
                     Toast t = Toast.makeText(getApplicationContext(), "Correct!", Toast.LENGTH_SHORT);
                     t.show();
                     score = score + 1;
@@ -97,7 +97,7 @@ public class TruefalseActivity extends AppCompatActivity {
         falseBTN.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(currentQ.getCorrectAnswer() == false) {
+                if(currentQ.getCorrectAnswer().equals("false")) {
                     Toast t = Toast.makeText(getApplicationContext(), "Correct!", Toast.LENGTH_SHORT);
                     t.show();
                     score = score + 1;
