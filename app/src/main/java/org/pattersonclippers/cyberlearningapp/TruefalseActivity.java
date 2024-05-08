@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -134,6 +135,9 @@ public class TruefalseActivity extends AppCompatActivity {
                 }
                 else {
                     Intent myIntent = new Intent(TruefalseActivity.this, QuizActivity.class);
+                    double percent = (score / (double) totalQs) * 100;
+                    Log.d("findpercent", "percent is: " + percent);
+                    myIntent.putExtra("tfHighest", (int) percent);
                     startActivity(myIntent);
                 }
             }

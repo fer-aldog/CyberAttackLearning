@@ -90,8 +90,39 @@
                 android:textSize="24sp"
                 android:textStyle="bold" />
 
-            <!--
-            <Space
+<!--            <Space-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="15dp" />-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:gravity="center">-->
+
+<!--                <EditText-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:fontFamily="sans-serif-medium"-->
+<!--                    android:hint="Write your name here."-->
+<!--                    android:textSize="15sp"-->
+<!--                    android:textStyle="bold" />-->
+<!--                <Space-->
+<!--                    android:layout_width="4dp"-->
+<!--                    android:layout_height="wrap_content"/>-->
+
+<!--                <Button-->
+<!--                    android:id="@+id/setNameBTN"-->
+<!--                    android:layout_width="74dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="SET"-->
+<!--                    android:textColor="#E1E1E1"-->
+<!--                    app:backgroundTint="#434343"-->
+<!--                    app:cornerRadius="5sp" />-->
+
+<!--            </LinearLayout>-->
+
+            <!--<Space
                 android:layout_width="wrap_content"
                 android:layout_height="50dp" />
 
@@ -111,14 +142,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:spinnerMode="dropdown" />
-            </LinearLayout>
-            -->
+            </LinearLayout>-->
 
             <Space
                 android:layout_width="wrap_content"
-                android:layout_height="30dp" />
+                android:layout_height="40dp" />
 
             <LinearLayout
+                android:id="@+id/fitbBG"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="#434343"
@@ -138,6 +169,7 @@
                         android:layout_height="9dp" />
 
                     <TextView
+                        android:id="@+id/fitbTitle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="sans-serif-medium"
@@ -145,11 +177,21 @@
                         android:textColor="@color/white"
                         android:textSize="17sp" />
 
+<!--                    <TextView-->
+<!--                        android:id="@+id/fitbRecent"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:fontFamily="sans-serif-medium"-->
+<!--                        android:text="Recent 100% scorer: None"-->
+<!--                        android:textColor="@color/white"-->
+<!--                        android:textSize="14sp" />-->
+
                     <TextView
+                        android:id="@+id/fitbHighest"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="sans-serif-medium"
-                        android:text="High score: 0"
+                        android:text="Your highest score: 0%"
                         android:textColor="@color/white"
                         android:textSize="14sp" />
 
@@ -158,6 +200,7 @@
                         android:layout_height="8dp" />
 
                     <TextView
+                        android:id="@+id/fitbDesc"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="sans-serif"
@@ -325,6 +368,7 @@
                 android:layout_height="30dp" />-->
 
             <LinearLayout
+                android:id="@+id/tfBG"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="#434343"
@@ -344,6 +388,7 @@
                         android:layout_height="9dp" />
 
                     <TextView
+                        android:id="@+id/tfTitle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="sans-serif-medium"
@@ -351,11 +396,21 @@
                         android:textColor="@color/white"
                         android:textSize="17sp" />
 
+<!--                    <TextView-->
+<!--                        android:id="@+id/tfRecent"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:fontFamily="sans-serif-medium"-->
+<!--                        android:text="Recent 100% scorer: None"-->
+<!--                        android:textColor="@color/white"-->
+<!--                        android:textSize="14sp" />-->
+
                     <TextView
+                        android:id="@+id/tfHighest"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="sans-serif-medium"
-                        android:text="High score: 0"
+                        android:text="Your highest score: 0%"
                         android:textColor="@color/white"
                         android:textSize="14sp" />
 
@@ -364,6 +419,7 @@
                         android:layout_height="8dp" />
 
                     <TextView
+                        android:id="@+id/tfDesc"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="sans-serif"

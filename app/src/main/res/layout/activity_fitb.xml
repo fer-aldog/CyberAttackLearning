@@ -17,7 +17,7 @@
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/score"
+        android:id="@+id/scoreCount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-medium"
@@ -38,7 +38,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-medium"
-            android:text="The "
+            android:text="@string/fitbq1"
             android:textSize="22sp" />
 
         <EditText
@@ -47,13 +47,13 @@
             android:layout_height="wrap_content"
             android:hint="             "/>
 
-        <TextView
+        <!--<TextView
             android:id="@+id/secondTxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-medium"
             android:text=" is called your mom."
-            android:textSize="22sp" />
+            android:textSize="22sp" />-->
     </LinearLayout>
 
     <Space
