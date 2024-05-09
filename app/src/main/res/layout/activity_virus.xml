@@ -106,7 +106,7 @@
                 android:layout_height="30dp"/>
 
             <TextView
-                android:id="@+id/article"
+                android:id="@+id/virtxt"
                 android:layout_width="367sp"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-medium"
@@ -115,7 +115,57 @@
 
             <Space
                 android:layout_width="wrap_content"
-                android:layout_height="50dp"/>
+                android:layout_height="25dp" />
+
+            <View
+                android:layout_width="340dp"
+                android:layout_height="4dp"
+                android:background="@color/black"/>
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="25dp" />
+
+            <TextView
+                android:id="@+id/virtype"
+                android:layout_width="367sp"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/virustypes"
+                android:textSize="17sp" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="25dp" />
+
+            <View
+                android:layout_width="340dp"
+                android:layout_height="4dp"
+                android:background="@color/black"/>
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="25dp" />
+
+            <TextView
+                android:id="@+id/virprot"
+                android:layout_width="367sp"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/virusprotect"
+                android:textSize="17sp" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="25dp" />
+
+            <TextView
+                android:id="@+id/virscr"
+                android:layout_width="367sp"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/virussource"
+                android:textSize="9sp" />
         </LinearLayout>
     </LinearLayout>
 </ScrollView>

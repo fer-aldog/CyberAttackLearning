@@ -9,56 +9,134 @@
         \n\nClick on the tab bar on the top of the screen to\nlearn more
         about three types of cyber attacks.</string>
 
-    <string name="malwaretxt">Malware, short for malicious software, is a type
-        \nof program or code that intentionally harms
-        \na computer to disrupt its normal operations and/or functionality.
-        \n\nThere are different types of malware:
-        \n- Adware
-        \n- Ransomware
-        \n- Spyware
-        \n- Rootkit
-        \n- Trojan Horse
-        \n- Virus
-        \n- Worm
-        \n- Keyloggers
-        \n- Bots
-        \n\nTo protect yourself against malware, you can:
+    <string name="malwaretxt">Malware, short for malicious software, is a type of program or
+        code that intentionally harms a computer to disrupt its normal operations and/or
+        functionality. You can get malware through emails with attachments, Microsoft
+        Office files, infected removable drives, sketchy websites, downloading other programs
+        online in third-party sites, or from malware itself. Depending on what type of malware
+        it is, it will cause harm to your computer through different methods.</string>
+
+    <string name="malwaretypes"> Types of malware:
+        \n• Adware: Irritating pop-ups ads that appear almost
+        every single second. Programs adware promote may contain malicious software that users
+        might download if not careful. Adware can pop up in sketchy websites on the Internet.
+
+        \n\n• Botnet: A botnet is a network of bots—‘zombie’ computers—controlled by an
+        attacker to carry out cyber attacks. malicious attachments or links to websites
+        they control. Your computer can turn into a bot and be part of a botnet by clicking
+        on attachments or links to websites they control, downloading malicious software,
+        or through IoT devices—devices that connect and exchange data with other systems
+        over communications networks.
+
+        \n\n• Keyloggers: These are used to monitor and record what you type on your
+        keyboard, both on computers and phones, which it can then save. When a hacker
+        gets a record of a keyboard’s keystroke, they can extract private information.
+        Keyloggers are installed through spear phishing, drive-by downloads, or through
+        a trojan horse.
+
+        \n\n• Ransomware: This restricts users’ access to a device’s data by encrypting it,
+        threatening them to pay a ransom by a given date. If it isn’t paid then, the actor
+        threatens to wipe the data and/or sell it off the dark web. You get ransomware on
+        your devices through phishing emails with malicious attachments or drive-by downloading.
+
+        \n\n• Spyware: A type of malware that spies on your computer activity. When spyware
+        infects a device, it gathers information about the device’s owner without their
+        knowledge and the creator of the spyware sells the information to third parties.
+        You get spyware through clicking on adware or links to infected sites, downloads
+        from unreliable websites, pirating music, movies, or games, or opening attachments
+        from unknown sources.
+
+        \n\n• Trojan Horse: Named after the Ancient Greek story of the Trojan Horse,
+        this malware pretends to be a real, working program. When your computer is
+        infected with this, it can act as a backdoor for other malware to come in your
+        computer or download malware and disable antivirus software itself. They are
+        found and spread through phishing and other social engineering tactics.
+
+        \n\n• Worm: A computer worm duplicates itself to infect other computers while
+        active in infected systems. It exploits a computer’s network or operating system
+        to do  this. Compared to viruses that corrupt data and need user interaction to
+        work, a worm can move by itself and usually only slows down programs or the
+        computer itself. You get worms from infected systems or storage media.</string>
+
+    <string name="malwareprotect">
+        To protect yourself against malware, you can:
+        \n- Check developer descriptions
         \n- Download antimalware software
         \n- Download apps or files only from trusted websites
-        \n- Check developer descriptions
         \n- Do not click on unverified links
-        \n- Keep operating system and apps updated.
-        \n\nSources:\n- https://thecyphere.com/blog/types-of-malware/</string>
+        \n- Keep operating system and apps updated
+        \n- Read whatever you click on </string>
 
-    <string name="virustxt">Computer viruses are a type of malware whose\npurpose
-        is to destroy data by attaching itself to\nmultiple files, just like
-        an actual, physical virus. Hackers like to create some sort of\ndisruption,
-        thinking of it like some funny prank. But others do it to deliberately cause\n
+    <string name="malwaresource">
+        Sources:
+        \n- https://thecyphere.com/blog/types-of-malware/
+        \n- https://www.mcafee.com/learn/computer-viruses/
+        \n- https://arcticwolf.com/resources/blog/8-types-of-malware/
+        \n- https://security.berkeley.edu/faq/ransomware
+        \n- https://support.microsoft.com/en-us/windows/how-malware-can-infect-your-pc-872bf025-623d-735d-1033-ea4d456fb76b
+        \n- https://www.upguard.com/blog/types-of-malware
+        \n- https://www.techtarget.com/searchsecurity/definition/worm
+        \n- https://www.mcafee.com/learn/understanding-trojan-viruses-and-how-to-get-rid-of-them/
+        \n- https://security.stackexchange.com/questions/67735/how-do-hackers-deploy-keyloggers
+        \n- https://heimdalsecurity.com/blog/all-about-botnets/
+        \n- https://us.norton.com/blog/malware/spyware </string>
+
+    <string name="virustxt">Computer viruses are a type of malware whose purpose
+        is to destroy data by attaching itself to multiple files, just like
+        an actual, physical virus. Hackers like to create some sort of disruption,
+        thinking of it like some funny prank. But others do it to deliberately cause
         harm to other people. Through downloading files from the internet, using
         packaged/unpatched software,pen drives, clicking on email attachments or USBs
         and hard drives, the computer gets a program or file with the virus.
         When you open a file or run a program with it, the host computer gets infected.
         Then the virus starts spreading itself to other parts of the computer
-        or to other computers.
-        \n\nThere are different types of viruses:
+        or to other computers. </string>
+
+    <string name="virustypes">Types of viruses:
         \n- Boot sector: This type of virus destroys a computer through its
         core. It attaches itself on floppy disks, USB drives, or emails, and
         once activated, it heads straight to the master boot record and
         disrupts the computer’s startup process.
-        \n- Direct Action:
-        \n- Macro:
-        \n- Multipartite:
-        \n- Overwrite virus:
-        \n- Polymorphic:
-        \n- Resident:
-        \n- Spacefiller:
-        \n\nTo protect yourself against viruses, you can:
+        \n\n- Self-replicated viruses that attach themselves to executable
+        (.exe or .com) files which contain instructions the computer carries
+        out. If users open or run an infected .exe or .com file, the virus
+        replicates itself and spreads to other parts and destroys the
+        computer’s memory and data.
+        \n\n- Macro: These viruses are present in macro, a programming language
+        normally used by Microsoft Office programs. It injects its own code
+        into macros, and once activated, it can modify and/or delete files,
+        slow your computer down, and corrupt your computer system.
+        \n\n- Multipartite: Also called ‘multi-part viruses’, multipartite
+        viruses attack both the computer’s central boot sector and files.
+        This virus is attainable through .exe files and slows your computer down.
+        \n\n Overwrite virus: Like its name suggests, this overwrite original data
+        on infected files with random data, deeming it unusable or useless and
+        unrecoverable. They spread through email attachments or file downloads
+        on the Internet.
+        \n\n- Polymorphic: A very advanced virus; it encrypts code with a
+        different encryption key each time it replicates and spreads to another
+        system to avoid antivirus software. When it gets into your computer
+        through spam or downloading from infected sites, it steals personal
+        information, corrupts data and slows down your computer.
+        \n\n- Resident: These viruses are made to hide in a computer’s memory and
+        are activated when the operating system is up and running. It can
+        attach itself to antivirus software and disable its effectiveness,
+        meaning it won’t be able to detect the virus, allowing the virus to
+        slow the computer down.
+        \n\n- Spacefiller: Also known as a ‘cavity virus’, a spacefiller is a
+        virus that replicates itself, filling empty spaces in program code with
+        its own malicious code. These are hard to create though, making it rare.
+        The way it works is by attaching itself to executable files or email
+        attachments, then spreading rapidly, destroying all computer data.</string>
+
+    <string name="virusprotect">To protect yourself against viruses, you can:
         \n- Back files up
         \n- Do a virus scan
         \n- Don’t click on suspicious links or pop-ups
         \n- Installing virus detection or antivirus software
-        \n- Using a firewall
-        \n\nSources:
+        \n- Using a firewall</string>
+
+    <string name="virussource"> Sources:
         \n- https://www.buddycompany.com/post/types-of-computer-virus
         \n- https://hightouchtechnologies.com/9-common-types-of-computer-viruses/
         \n- https://logixconsulting.com/2021/06/15/what-is-a-direct-action-computer-virus/
@@ -66,25 +144,55 @@
         \n- https://www.kyoceradocumentsolutions.com/in/en/about-us/blog/8-common-types-of-computer-viruses.html
         \n- https://www.trendmicro.com/vinfo/us/security/definition/polymorphic-virus
         \n- https://allaboutcookies.org/what-is-a-computer-virus
-        \n- https://www.mcafee.com/learn/computer-viruses/</string>
+        \n- https://www.mcafee.com/learn/computer-viruses/ </string>
 
-    <string name="scamtxt">Scams are well-known to be deceptive\npractices where someone
-        tricks you into\nthinking that what they’re offering has no\ncatch at all.
-        \n\nThe same thing goes with Internet scams. Internet scams can come in all forms.
-        \n\nThere is a different type of scam called phishing, and it comes in many forms:
-        \n- Angler Phishing
-        \n- Clone Phishing
-        \n- Email Phishing and Sextortion
-        \n- Pharming
-        \n- Pop-up Phishing
-        \n- Search Engine Phishing
-        \n- Smishing and Vishing
-        \n- Spear Phishing
-        \n- Whaling
-        \n\nSources:\n- https://www.itgovernance.eu/blog/en/the-5-most-common-types-of-phishing-attack
-        \n- https://www.trendmicro.com/en_us/what-is/phishing/types-of-phishing.html
-        \n- https://www.bluevoyant.com/knowledge-center/8-phishing-types-and-how-to-prevent-them
-        \n- https://www.upguard.com/blog/types-of-phishing-attacks</string>
+    <string name="scamtxt">Internet scams are internet services or software used to defraud
+        or take advantage of victims for financial gain or identity theft, just like
+        real-life scams. Scammers pass down information to each other. The more experience
+        and information, the better they can get at scamming. They are also very good
+        storytellers and actors, cunning, and use time pressure or authority against you
+        in order for you to act now and give them what they want. They know exactly how
+        humans act socially and use that to their advantage.</string>
+
+    <string name="scamtypes">Types of scams:
+        \n- Blackmail Scams: Blackmail scammers scare victims by threatening to leak
+        private or embarrassing content from your devices if they don’t send money.
+        They can be either strangers or people you know.
+        \n\n- Grandparent/Imposter Scams: Scammers pretend to be people you know, like
+        family or friends, or people who work for the government. They will ask you
+        to transfer them money, gift cards, or ask for your personal information.
+        Because of how advanced technology is nowadays, they can clone their voices
+        to make it even more believable. They may also threaten you with undesirable
+        consequences if you don’t comply.
+        \n\n- Mail Scams: Letters you get in the mail asking you to send money or
+        personal information in order to receive sweepstakes winnings, vacations,
+        and more prizes are obviously mail scams. You can’t win what you never participated in.
+        \n\n- Phishing: This is a type of scam where attackers send emails and text
+        messages, usually online, pretending to be a business or person. They may claim
+        to need you to log in a website with your personal information or transfer money
+        in order to solve a problem, but be wary, as these are fake and may cause you to
+        accidentally give out very private information.
+        \n\n- Romance Scams: In the online dating scene, people search for others to create
+        a bond with. Scammers use this to make victims fall in love with them. When the
+        victim and the scammer gets into a ‘relationship’, the scammer starts asking the
+        victim for money, and the victim is usually completely willing enough to give them
+        the money that they need in the name of love.</string>
+
+    <string name="scamprotect">To protect yourself against scams:
+        \n- Be alert when it comes to suspicious messages
+        \n- Be more cautious about connecting to public wifi or free charging stations
+        \n- Be wary about who or what you’re interacting with
+        \n- Don’t click on suspicious links
+        \n- Don’t open texts or emails from unfamiliar people or businesses
+        \n- Make sure your loved ones are actually safe
+        \n- Save messages as evidence to show law enforcement</string>
+
+    <string name="scamsource"> Sources:
+        \n- https://us.norton.com/blog/emerging-threats/internet-scams
+        \n- https://www.fdic.gov/resources/consumers/consumer-news/2021-10.html
+        \n- https://www.welivesecurity.com/2022/05/12/10-reasons-why-we-fall-scams/
+        \n- https://www.consumerfinance.gov/ask-cfpb/what-are-some-common-types-of-scams-en-2092/
+    </string>
 
     <string name="fact1">People lost $10 billion to scams\nin 2023, according to the FTC.</string>
     <string name="fact2">In 1986, the very first computer virus, a\nboot sector virus called Brain, was made.</string>
