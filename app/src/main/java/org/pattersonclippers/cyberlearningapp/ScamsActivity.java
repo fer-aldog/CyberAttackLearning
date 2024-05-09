@@ -14,7 +14,7 @@ public class ScamsActivity extends AppCompatActivity {
 
     Button homeBTN, malwareBTN, scamBTN, virusBTN, quizBTN;
     LinearLayout scamsScreen, buttonBar;
-    TextView header, article;
+    TextView header, scamtxt, scamtype, scamprot, scamsrc;
 
     String theme;
     private SharedPreferences mySharedPreferences;
@@ -37,7 +37,10 @@ public class ScamsActivity extends AppCompatActivity {
         virusBTN = (Button) findViewById(R.id.virusBTN);
         quizBTN = (Button) findViewById(R.id.quizBTN);
         header = (TextView) findViewById(R.id.header);
-        article = (TextView) findViewById(R.id.article);
+        scamtxt = (TextView) findViewById(R.id.scamtxt);
+        scamtype = (TextView) findViewById(R.id.scamtype);
+        scamprot = (TextView) findViewById(R.id.scamprot);
+        scamsrc = (TextView) findViewById(R.id.scamsrc);
 
         if(theme.equals("light")) {
             scamsScreen.setBackgroundColor(getResources().getColor(R.color.light_bg));
@@ -48,7 +51,10 @@ public class ScamsActivity extends AppCompatActivity {
             malwareBTN.setTextColor(getResources().getColor(R.color.light_inactivetxt));
             quizBTN.setTextColor(getResources().getColor(R.color.light_inactivetxt));
             header.setTextColor(getResources().getColor(R.color.light_text));
-            article.setTextColor(getResources().getColor(R.color.light_text));
+            scamtxt.setTextColor(getResources().getColor(R.color.light_text));
+            scamtype.setTextColor(getResources().getColor(R.color.light_text));
+            scamprot.setTextColor(getResources().getColor(R.color.light_text));
+            scamsrc.setTextColor(getResources().getColor(R.color.light_text));
         }
         if(theme.equals("dark")) {
             scamsScreen.setBackgroundColor(getResources().getColor(R.color.dark_bg));
@@ -59,7 +65,10 @@ public class ScamsActivity extends AppCompatActivity {
             malwareBTN.setTextColor(getResources().getColor(R.color.dark_inactivetxt));
             quizBTN.setTextColor(getResources().getColor(R.color.dark_inactivetxt));
             header.setTextColor(getResources().getColor(R.color.dark_text));
-            article.setTextColor(getResources().getColor(R.color.dark_text));
+            scamtxt.setTextColor(getResources().getColor(R.color.dark_text));
+            scamtype.setTextColor(getResources().getColor(R.color.dark_text));
+            scamprot.setTextColor(getResources().getColor(R.color.dark_text));
+            scamsrc.setTextColor(getResources().getColor(R.color.dark_text));
         }
         if(theme.equals("cream")) {
             scamsScreen.setBackgroundColor(getResources().getColor(R.color.cream_bg));
@@ -70,7 +79,10 @@ public class ScamsActivity extends AppCompatActivity {
             malwareBTN.setTextColor(getResources().getColor(R.color.cream_inactivetxt));
             quizBTN.setTextColor(getResources().getColor(R.color.cream_inactivetxt));
             header.setTextColor(getResources().getColor(R.color.cream_text));
-            article.setTextColor(getResources().getColor(R.color.cream_text));
+            scamtxt.setTextColor(getResources().getColor(R.color.cream_text));
+            scamtype.setTextColor(getResources().getColor(R.color.cream_text));
+            scamprot.setTextColor(getResources().getColor(R.color.cream_text));
+            scamsrc.setTextColor(getResources().getColor(R.color.cream_text));
         }
         if(theme.equals("blue")) {
             scamsScreen.setBackgroundColor(getResources().getColor(R.color.blue_bg));
@@ -81,7 +93,10 @@ public class ScamsActivity extends AppCompatActivity {
             malwareBTN.setTextColor(getResources().getColor(R.color.blue_inactivetxt));
             quizBTN.setTextColor(getResources().getColor(R.color.blue_inactivetxt));
             header.setTextColor(getResources().getColor(R.color.blue_text));
-            article.setTextColor(getResources().getColor(R.color.blue_text));
+            scamtxt.setTextColor(getResources().getColor(R.color.blue_text));
+            scamtype.setTextColor(getResources().getColor(R.color.blue_text));
+            scamprot.setTextColor(getResources().getColor(R.color.blue_text));
+            scamsrc.setTextColor(getResources().getColor(R.color.blue_text));
         }
         if(theme.equals("lilac")) {
             scamsScreen.setBackgroundColor(getResources().getColor(R.color.lilac_bg));
@@ -92,7 +107,10 @@ public class ScamsActivity extends AppCompatActivity {
             malwareBTN.setTextColor(getResources().getColor(R.color.lilac_inactivetxt));
             quizBTN.setTextColor(getResources().getColor(R.color.lilac_inactivetxt));
             header.setTextColor(getResources().getColor(R.color.lilac_text));
-            article.setTextColor(getResources().getColor(R.color.lilac_text));
+            scamtxt.setTextColor(getResources().getColor(R.color.lilac_text));
+            scamtype.setTextColor(getResources().getColor(R.color.lilac_text));
+            scamprot.setTextColor(getResources().getColor(R.color.lilac_text));
+            scamsrc.setTextColor(getResources().getColor(R.color.lilac_text));
         }
 
         homeBTN.setOnClickListener(new View.OnClickListener() {

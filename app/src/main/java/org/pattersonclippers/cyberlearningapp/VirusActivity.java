@@ -14,7 +14,7 @@ public class VirusActivity extends AppCompatActivity {
 
     Button homeBTN, malwareBTN, scamBTN, virusBTN, quizBTN;
     LinearLayout virusScreen, buttonBar;
-    TextView header, article;
+    TextView header, virtxt, virtype, virprot, virscr;
 
     String theme;
     private SharedPreferences mySharedPreferences;
@@ -37,7 +37,10 @@ public class VirusActivity extends AppCompatActivity {
         virusBTN = (Button) findViewById(R.id.virusBTN);
         quizBTN = (Button) findViewById(R.id.quizBTN);
         header = (TextView) findViewById(R.id.header);
-        article = (TextView) findViewById(R.id.article);
+        virtxt = (TextView) findViewById(R.id.virtxt);
+        virtype = (TextView) findViewById(R.id.virtype);
+        virprot = (TextView) findViewById(R.id.virprot);
+        virscr = (TextView) findViewById(R.id.virscr);
 
         if(theme.equals("light")) {
             virusScreen.setBackgroundColor(getResources().getColor(R.color.light_bg));
@@ -48,7 +51,10 @@ public class VirusActivity extends AppCompatActivity {
             scamBTN.setTextColor(getResources().getColor(R.color.light_inactivetxt));
             quizBTN.setTextColor(getResources().getColor(R.color.light_inactivetxt));
             header.setTextColor(getResources().getColor(R.color.light_text));
-            article.setTextColor(getResources().getColor(R.color.light_text));
+            virtxt.setTextColor(getResources().getColor(R.color.light_text));
+            virtype.setTextColor(getResources().getColor(R.color.light_text));
+            virprot.setTextColor(getResources().getColor(R.color.light_text));
+            virscr.setTextColor(getResources().getColor(R.color.light_text));
         }
         if(theme.equals("dark")) {
             virusScreen.setBackgroundColor(getResources().getColor(R.color.dark_bg));
@@ -59,7 +65,10 @@ public class VirusActivity extends AppCompatActivity {
             scamBTN.setTextColor(getResources().getColor(R.color.dark_inactivetxt));
             quizBTN.setTextColor(getResources().getColor(R.color.dark_inactivetxt));
             header.setTextColor(getResources().getColor(R.color.dark_text));
-            article.setTextColor(getResources().getColor(R.color.dark_text));
+            virtxt.setTextColor(getResources().getColor(R.color.dark_text));
+            virtype.setTextColor(getResources().getColor(R.color.dark_text));
+            virprot.setTextColor(getResources().getColor(R.color.dark_text));
+            virscr.setTextColor(getResources().getColor(R.color.dark_text));
         }
         if(theme.equals("cream")) {
             virusScreen.setBackgroundColor(getResources().getColor(R.color.cream_bg));
@@ -70,7 +79,10 @@ public class VirusActivity extends AppCompatActivity {
             scamBTN.setTextColor(getResources().getColor(R.color.cream_inactivetxt));
             quizBTN.setTextColor(getResources().getColor(R.color.cream_inactivetxt));
             header.setTextColor(getResources().getColor(R.color.cream_text));
-            article.setTextColor(getResources().getColor(R.color.cream_text));
+            virtxt.setTextColor(getResources().getColor(R.color.cream_text));
+            virtype.setTextColor(getResources().getColor(R.color.cream_text));
+            virprot.setTextColor(getResources().getColor(R.color.cream_text));
+            virscr.setTextColor(getResources().getColor(R.color.cream_text));
         }
         if(theme.equals("blue")) {
             virusScreen.setBackgroundColor(getResources().getColor(R.color.blue_bg));
@@ -81,7 +93,10 @@ public class VirusActivity extends AppCompatActivity {
             scamBTN.setTextColor(getResources().getColor(R.color.blue_inactivetxt));
             quizBTN.setTextColor(getResources().getColor(R.color.blue_inactivetxt));
             header.setTextColor(getResources().getColor(R.color.blue_text));
-            article.setTextColor(getResources().getColor(R.color.blue_text));
+            virtxt.setTextColor(getResources().getColor(R.color.blue_text));
+            virtype.setTextColor(getResources().getColor(R.color.blue_text));
+            virprot.setTextColor(getResources().getColor(R.color.blue_text));
+            virscr.setTextColor(getResources().getColor(R.color.blue_text));
         }
         if(theme.equals("lilac")) {
             virusScreen.setBackgroundColor(getResources().getColor(R.color.lilac_bg));
@@ -92,7 +107,10 @@ public class VirusActivity extends AppCompatActivity {
             scamBTN.setTextColor(getResources().getColor(R.color.lilac_inactivetxt));
             quizBTN.setTextColor(getResources().getColor(R.color.lilac_inactivetxt));
             header.setTextColor(getResources().getColor(R.color.lilac_text));
-            article.setTextColor(getResources().getColor(R.color.lilac_text));
+            virtxt.setTextColor(getResources().getColor(R.color.lilac_text));
+            virtype.setTextColor(getResources().getColor(R.color.lilac_text));
+            virprot.setTextColor(getResources().getColor(R.color.lilac_text));
+            virscr.setTextColor(getResources().getColor(R.color.lilac_text));
         }
 
         homeBTN.setOnClickListener(new View.OnClickListener() {

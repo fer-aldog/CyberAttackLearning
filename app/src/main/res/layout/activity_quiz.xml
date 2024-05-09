@@ -216,7 +216,7 @@
                         android:paddingLeft="2dp"
                         android:text="PLAY"
                         android:textColor="#E1E1E1"
-                        app:backgroundTint="#434343"
+                        app:backgroundTint="#00FFFFFF"
                         app:cornerRadius="5sp" />
 
                 </LinearLayout>
@@ -434,7 +434,7 @@
                         android:paddingLeft="2dp"
                         android:text="PLAY"
                         android:textColor="#E1E1E1"
-                        app:backgroundTint="#434343"
+                        app:backgroundTint="#00FFFFFF"
                         app:cornerRadius="5sp" />
 
                 </LinearLayout>

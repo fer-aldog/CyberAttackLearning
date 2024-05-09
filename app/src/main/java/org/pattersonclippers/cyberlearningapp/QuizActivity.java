@@ -83,18 +83,109 @@ public class QuizActivity extends AppCompatActivity {
 
         if(theme.equals("light")) {
             quizScreen.setBackgroundColor(getResources().getColor(R.color.light_bg));
-            header, fitbTitle, fitbHighest, fitbDesc, tfTitle, tfHighest, tfDesc;
-            Button homeBTN, malwareBTN, scamBTN, virusBTN, quizBTN, fillBlankBTN, trueFalseBTN;
-            LinearLayout quizScreen, buttonBar, fitbBG, tfBG
+            buttonBar.setBackgroundColor(getResources().getColor(R.color.light_button));
+            fitbBG.setBackgroundColor(getResources().getColor(R.color.light_inactivetxt));
+            tfBG.setBackgroundColor(getResources().getColor(R.color.light_inactivetxt));
+            quizBTN.setTextColor(getResources().getColor(R.color.light_buttontxt));
+            homeBTN.setTextColor(getResources().getColor(R.color.light_inactivetxt));
+            virusBTN.setTextColor(getResources().getColor(R.color.light_inactivetxt));
+            malwareBTN.setTextColor(getResources().getColor(R.color.light_inactivetxt));
+            scamBTN.setTextColor(getResources().getColor(R.color.light_inactivetxt));
+
+            header.setTextColor(getResources().getColor(R.color.light_text));
+            fitbTitle.setTextColor(getResources().getColor(R.color.light_buttontxt));
+            fitbHighest.setTextColor(getResources().getColor(R.color.light_buttontxt));
+            fitbDesc.setTextColor(getResources().getColor(R.color.light_text));
+            tfTitle.setTextColor(getResources().getColor(R.color.light_buttontxt));
+            tfHighest.setTextColor(getResources().getColor(R.color.light_buttontxt));
+            tfDesc.setTextColor(getResources().getColor(R.color.light_text));
+            fillBlankBTN.setTextColor(getResources().getColor(R.color.light_buttontxt));
+            trueFalseBTN.setTextColor(getResources().getColor(R.color.light_buttontxt));
         }
         if(theme.equals("dark")) {
-            quizScreen.setBackgroundColor(getResources().getColor(R.color.dark_bg)); }
+            quizScreen.setBackgroundColor(getResources().getColor(R.color.dark_bg));
+            buttonBar.setBackgroundColor(getResources().getColor(R.color.dark_button));
+            fitbBG.setBackgroundColor(getResources().getColor(R.color.dark_inactivetxt));
+            tfBG.setBackgroundColor(getResources().getColor(R.color.dark_inactivetxt));
+            quizBTN.setTextColor(getResources().getColor(R.color.dark_buttontxt));
+            homeBTN.setTextColor(getResources().getColor(R.color.dark_inactivetxt));
+            virusBTN.setTextColor(getResources().getColor(R.color.dark_inactivetxt));
+            malwareBTN.setTextColor(getResources().getColor(R.color.dark_inactivetxt));
+            scamBTN.setTextColor(getResources().getColor(R.color.dark_inactivetxt));
+
+            header.setTextColor(getResources().getColor(R.color.dark_text));
+            fitbTitle.setTextColor(getResources().getColor(R.color.dark_buttontxt));
+            fitbHighest.setTextColor(getResources().getColor(R.color.dark_buttontxt));
+            fitbDesc.setTextColor(getResources().getColor(R.color.dark_text));
+            tfTitle.setTextColor(getResources().getColor(R.color.dark_buttontxt));
+            tfHighest.setTextColor(getResources().getColor(R.color.dark_buttontxt));
+            tfDesc.setTextColor(getResources().getColor(R.color.dark_text));
+            fillBlankBTN.setTextColor(getResources().getColor(R.color.dark_buttontxt));
+            trueFalseBTN.setTextColor(getResources().getColor(R.color.dark_buttontxt));
+        }
         if(theme.equals("cream")) {
-            quizScreen.setBackgroundColor(getResources().getColor(R.color.cream_bg)); }
+            quizScreen.setBackgroundColor(getResources().getColor(R.color.cream_bg));
+            buttonBar.setBackgroundColor(getResources().getColor(R.color.cream_button));
+            fitbBG.setBackgroundColor(getResources().getColor(R.color.cream_inactivetxt));
+            tfBG.setBackgroundColor(getResources().getColor(R.color.cream_inactivetxt));
+            quizBTN.setTextColor(getResources().getColor(R.color.cream_buttontxt));
+            homeBTN.setTextColor(getResources().getColor(R.color.cream_inactivetxt));
+            virusBTN.setTextColor(getResources().getColor(R.color.cream_inactivetxt));
+            malwareBTN.setTextColor(getResources().getColor(R.color.cream_inactivetxt));
+            scamBTN.setTextColor(getResources().getColor(R.color.cream_inactivetxt));
+
+            header.setTextColor(getResources().getColor(R.color.cream_text));
+            fitbTitle.setTextColor(getResources().getColor(R.color.cream_text));
+            fitbHighest.setTextColor(getResources().getColor(R.color.cream_text));
+            fitbDesc.setTextColor(getResources().getColor(R.color.cream_text));
+            tfTitle.setTextColor(getResources().getColor(R.color.cream_text));
+            tfHighest.setTextColor(getResources().getColor(R.color.cream_text));
+            tfDesc.setTextColor(getResources().getColor(R.color.cream_text));
+            fillBlankBTN.setTextColor(getResources().getColor(R.color.cream_text));
+            trueFalseBTN.setTextColor(getResources().getColor(R.color.cream_text));
+        }
         if(theme.equals("blue")) {
-            quizScreen.setBackgroundColor(getResources().getColor(R.color.blue_bg)); }
+            quizScreen.setBackgroundColor(getResources().getColor(R.color.blue_bg));
+            buttonBar.setBackgroundColor(getResources().getColor(R.color.blue_button));
+            fitbBG.setBackgroundColor(getResources().getColor(R.color.blue_inactivetxt));
+            tfBG.setBackgroundColor(getResources().getColor(R.color.blue_inactivetxt));
+            quizBTN.setTextColor(getResources().getColor(R.color.blue_buttontxt));
+            homeBTN.setTextColor(getResources().getColor(R.color.blue_inactivetxt));
+            virusBTN.setTextColor(getResources().getColor(R.color.blue_inactivetxt));
+            malwareBTN.setTextColor(getResources().getColor(R.color.blue_inactivetxt));
+            scamBTN.setTextColor(getResources().getColor(R.color.blue_inactivetxt));
+
+            header.setTextColor(getResources().getColor(R.color.blue_text));
+            fitbTitle.setTextColor(getResources().getColor(R.color.blue_buttontxt));
+            fitbHighest.setTextColor(getResources().getColor(R.color.blue_buttontxt));
+            fitbDesc.setTextColor(getResources().getColor(R.color.blue_text));
+            tfTitle.setTextColor(getResources().getColor(R.color.blue_buttontxt));
+            tfHighest.setTextColor(getResources().getColor(R.color.blue_buttontxt));
+            tfDesc.setTextColor(getResources().getColor(R.color.blue_text));
+            fillBlankBTN.setTextColor(getResources().getColor(R.color.blue_buttontxt));
+            trueFalseBTN.setTextColor(getResources().getColor(R.color.blue_buttontxt));
+        }
         if(theme.equals("lilac")) {
-            quizScreen.setBackgroundColor(getResources().getColor(R.color.lilac_bg)); }
+            quizScreen.setBackgroundColor(getResources().getColor(R.color.lilac_bg));
+            buttonBar.setBackgroundColor(getResources().getColor(R.color.lilac_button));
+            fitbBG.setBackgroundColor(getResources().getColor(R.color.lilac_inactivetxt));
+            tfBG.setBackgroundColor(getResources().getColor(R.color.lilac_inactivetxt));
+            quizBTN.setTextColor(getResources().getColor(R.color.lilac_buttontxt));
+            homeBTN.setTextColor(getResources().getColor(R.color.lilac_inactivetxt));
+            virusBTN.setTextColor(getResources().getColor(R.color.lilac_inactivetxt));
+            malwareBTN.setTextColor(getResources().getColor(R.color.lilac_inactivetxt));
+            scamBTN.setTextColor(getResources().getColor(R.color.lilac_inactivetxt));
+
+            header.setTextColor(getResources().getColor(R.color.lilac_text));
+            fitbTitle.setTextColor(getResources().getColor(R.color.lilac_buttontxt));
+            fitbHighest.setTextColor(getResources().getColor(R.color.lilac_buttontxt));
+            fitbDesc.setTextColor(getResources().getColor(R.color.blue_text));
+            tfTitle.setTextColor(getResources().getColor(R.color.lilac_buttontxt));
+            tfHighest.setTextColor(getResources().getColor(R.color.lilac_buttontxt));
+            tfDesc.setTextColor(getResources().getColor(R.color.blue_text));
+            fillBlankBTN.setTextColor(getResources().getColor(R.color.lilac_buttontxt));
+            trueFalseBTN.setTextColor(getResources().getColor(R.color.lilac_buttontxt));
+        }
 
         homeBTN.setOnClickListener(new View.OnClickListener() {
             @Override
