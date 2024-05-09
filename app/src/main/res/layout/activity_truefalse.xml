@@ -33,7 +33,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-medium"
-        android:text="Spyware is a type of malware."
+        android:text="@string/tfq15"
+        android:gravity="center"
         android:textSize="22sp" />
 
     <Space

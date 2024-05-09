@@ -97,7 +97,7 @@
         core. It attaches itself on floppy disks, USB drives, or emails, and
         once activated, it heads straight to the master boot record and
         disrupts the computer’s startup process.
-        \n\n- Self-replicated viruses that attach themselves to executable
+        \n\n- Direct Action: Self-replicated viruses that attach themselves to executable
         (.exe or .com) files which contain instructions the computer carries
         out. If users open or run an infected .exe or .com file, the virus
         replicates itself and spreads to other parts and destroys the
@@ -210,35 +210,40 @@
     <string name="tfDesc">Answer true/false questions about malware, viruses
         \nand scams! Contains a total of 10 questions with a\n15-question pool.</string>
 
-    <string name="fitbq1">The answer is malware1 </string>
-    <string name="fitbq2">The answer is malware2 </string>
-    <string name="fitbq3">The answer is malware3 </string>
-    <string name="fitbq4">The answer is malware4 </string>
-    <string name="fitbq5">The answer is malware5 </string>
-    <string name="fitbq6">The answer is virus1 </string>
-    <string name="fitbq7">The answer is virus2 </string>
-    <string name="fitbq8">The answer is virus3 </string>
-    <string name="fitbq9">The answer is virus4 </string>
-    <string name="fitbq10">The answer is virus5 </string>
-    <string name="fitbq11">The answer is scams1 </string>
-    <string name="fitbq12">The answer is scams2 </string>
-    <string name="fitbq13">The answer is scams3 </string>
-    <string name="fitbq14">The answer is scams4 </string>
-    <string name="fitbq15">The answer is scams5 </string>
+    <string name="fitbq1">The short term for malicious software is:</string>
+    <string name="fitbq2">To infect computers, a worm does this:</string>
+    <string name="fitbq3">Type of malware that spies on\n computer activity:</string>
+    <string name="fitbq4">Pop-ups that can be found in\nthe Internet are called:</string>
+    <string name="fitbq5">Locks data unless money is paid:</string>
+    <string name="fitbq6">Overwrites data with random data:</string>
+    <string name="fitbq7">Encrypts code with different\nencryption key each time:</string>
+    <string name="fitbq8">Hides in a computer\'s memory and\nactive when the operating system is:</string>
+    <string name="fitbq9">Fills in empty spaces in code\nwith its own:</string>
+    <string name="fitbq10">Attacks both the computer\'s central\nboot sector and files:</string>
+    <string name="fitbq11">Can sound more believable\nthrough AI cloning:</string>
+    <string name="fitbq12">Scam that revolves around making\nsomeone fall in love with scammer
+        \nto get money:</string>
+    <string name="fitbq13">Pretends to be a business asking you\nto log
+        in websites. Can come in\nthe form of emails and texts:</string>
+    <string name="fitbq14">Mail or email that baits you into\nthinking you won a contest:</string>
+    <string name="fitbq15">Scam that threats to leak personal\nor private information:</string>
 
-    <string name="tfq1">Spyware is a type of malware.</string>
-    <string name="tfq2">falsemalware.</string>
-    <string name="tfq3">malware.</string>
-    <string name="tfq4">falsemalware.</string>
-    <string name="tfq5">malware.</string>
-    <string name="tfq6">Spacefillers are rare viruses because it has a different encryption key each time it replicates.</string>
-    <string name="tfq7">Resident viruses hide in a computer’s memory.</string>
-    <string name="tfq8">Viruses can be avoided by using bynewalls.</string>
+    <string name="tfq1">Worms usually don\'t cause\nmajor problems.</string>
+    <string name="tfq2">Spyware can cause your device\nto crash.</string>
+    <string name="tfq3">Trojan Horses act as backdoors\nfor other malware.</string>
+    <string name="tfq4">Keyloggers are a network of\nzombie computers.</string>
+    <string name="tfq5">Adware are pop-ups that may\ncontain malware if clicked.</string>
+    <string name="tfq6">Spacefillers are rare viruses because\nit has a different
+        encryption key\neach time it replicates.</string>
+    <string name="tfq7">Resident viruses hide in a\ncomputer’s memory.</string>
+    <string name="tfq8">Viruses can be avoided by\nusing bynewalls.</string>
     <string name="tfq9">Executable files are dangerous.</string>
-    <string name="tfq10">Backing files up is useless because they can be overwritten anyway.</string>
-    <string name="tfq11">Scams.</string>
-    <string name="tfq12">falsescams.</string>
-    <string name="tfq13">scams.</string>
-    <string name="tfq14">falsescams.</string>
-    <string name="tfq15">scams.</string>
+    <string name="tfq10">Backing files up is useless because
+        \nthey can be overwritten anyway.</string>
+    <string name="tfq11">You shouldn\'t click on links sent by\nbusinesses through email or text.</string>
+    <string name="tfq12">Mail scams are real;\nyou did win a prize.</string>
+    <string name="tfq13">You should be suspicious when a\nloved one asks for a gift card.</string>
+    <string name="tfq14">You should feel bad when a\nstranger online asks for money\nbecause their pet died.</string>
+    <string name="tfq15">Being calm is one of the best things\nto
+        be when falling victim to\na blackmail scam.</string>
 </resources>
