@@ -158,12 +158,12 @@
         \n- Blackmail Scams: Blackmail scammers scare victims by threatening to leak
         private or embarrassing content from your devices if they don’t send money.
         They can be either strangers or people you know.
-        \n\n- Grandparent/Imposter Scams: Scammers pretend to be people you know, like
-        family or friends, or people who work for the government. They will ask you
-        to transfer them money, gift cards, or ask for your personal information.
-        Because of how advanced technology is nowadays, they can clone their voices
-        to make it even more believable. They may also threaten you with undesirable
-        consequences if you don’t comply.
+        \n\n- Grandparent Scams: Scammers pretend to be your family or friends.
+        They will ask you to transfer them money or gift cards. Because of how advanced
+        technology is nowadays, they can clone their voices to make it even more believable.
+        \n\n- Imposter Scams: Scammers pretend to be people who work for the government
+        or people you know in the workplace. They will ask you for your personal information,
+        and if you don\'t comply, they will threaten you with undesirable consequences.
         \n\n- Mail Scams: Letters you get in the mail asking you to send money or
         personal information in order to receive sweepstakes winnings, vacations,
         and more prizes are obviously mail scams. You can’t win what you never participated in.
@@ -174,7 +174,7 @@
         accidentally give out very private information.
         \n\n- Romance Scams: In the online dating scene, people search for others to create
         a bond with. Scammers use this to make victims fall in love with them. When the
-        victim and the scammer gets into a ‘relationship’, the scammer starts asking the
+        victim and the scammer gets into a \'relationship\', the scammer starts asking the
         victim for money, and the victim is usually completely willing enough to give them
         the money that they need in the name of love.</string>
 
@@ -212,7 +212,7 @@
 
     <string name="fitbq1">The short term for malicious software is:</string>
     <string name="fitbq2">To infect computers, a worm does this:</string>
-    <string name="fitbq3">Type of malware that spies on\n computer activity:</string>
+    <string name="fitbq3">Type of malware that spies on\ncomputer activity:</string>
     <string name="fitbq4">Pop-ups that can be found in\nthe Internet are called:</string>
     <string name="fitbq5">Locks data unless money is paid:</string>
     <string name="fitbq6">Overwrites data with random data:</string>
@@ -224,7 +224,7 @@
     <string name="fitbq12">Scam that revolves around making\nsomeone fall in love with scammer
         \nto get money:</string>
     <string name="fitbq13">Pretends to be a business asking you\nto log
-        in websites. Can come in\nthe form of emails and texts:</string>
+        in websites to resolve a\nproblem with your account. Can come\nin the form of emails and texts.</string>
     <string name="fitbq14">Mail or email that baits you into\nthinking you won a contest:</string>
     <string name="fitbq15">Scam that threats to leak personal\nor private information:</string>
 

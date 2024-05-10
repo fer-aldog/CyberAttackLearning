@@ -34,7 +34,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:fontFamily="sans-serif-medium"
-        android:text="@string/fitbq15"
+        android:text="@string/fitbq14"
         android:textSize="22sp" />
 
         <EditText

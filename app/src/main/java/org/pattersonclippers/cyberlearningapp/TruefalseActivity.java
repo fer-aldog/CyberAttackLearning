@@ -14,7 +14,7 @@ import android.widget.Toast;
 import java.util.ArrayList;
 
 public class TruefalseActivity extends AppCompatActivity {
-    Button trueBTN, falseBTN, correctBTN, nextBTN;
+    Button trueBTN, falseBTN, nextBTN; //correctBTN
     TextView qNum, scoreCount, questionTV;
     Question q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11, q12, q13, q14, q15, currentQ;
     ArrayList<Question> unusedQuestions, toBeAnswered;
@@ -31,7 +31,7 @@ public class TruefalseActivity extends AppCompatActivity {
 
         trueBTN = (Button) findViewById(R.id.trueBTN);
         falseBTN = (Button) findViewById(R.id.falseBTN);
-        correctBTN = (Button) findViewById(R.id.correctBTN);
+//        correctBTN = (Button) findViewById(R.id.correctBTN);
         nextBTN = (Button) findViewById(R.id.nextBTN);
 
         ibeforetotal = 0;
@@ -111,13 +111,13 @@ public class TruefalseActivity extends AppCompatActivity {
             }
         });
 
-        correctBTN.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast t = Toast.makeText(getApplicationContext(), "This is why.", Toast.LENGTH_SHORT);
-                t.show();
-            }
-        });
+//        correctBTN.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Toast t = Toast.makeText(getApplicationContext(), "This is why.", Toast.LENGTH_SHORT);
+//                t.show();
+//            }
+//        });
 
         nextBTN.setOnClickListener(new View.OnClickListener() {
             @Override

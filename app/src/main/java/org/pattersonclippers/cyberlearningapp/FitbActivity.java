@@ -20,6 +20,7 @@ public class FitbActivity extends AppCompatActivity {
     Question q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11, q12, q13, q14, q15, currentQ;
     ArrayList<Question> unusedQuestions, toBeAnswered;
     int score, totalQs, ibeforetotal, currentIndex;
+    boolean isCorrectAnswer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,22 +40,23 @@ public class FitbActivity extends AppCompatActivity {
         ibeforetotal = 0;
         totalQs = 10;
         score = 0;
+        isCorrectAnswer = false;
 
-        q1 = new Question(getString(R.string.fitbq1), "malware1");
-        q2 = new Question(getString(R.string.fitbq2), "malware2");
-        q3 = new Question(getString(R.string.fitbq3), "malware3");
-        q4 = new Question(getString(R.string.fitbq4), "malware4");
-        q5 = new Question(getString(R.string.fitbq5), "malware5");
-        q6 = new Question(getString(R.string.fitbq6), "virus1");
-        q7 = new Question(getString(R.string.fitbq7), "virus2");
-        q8 = new Question(getString(R.string.fitbq8), "virus3");
-        q9 = new Question(getString(R.string.fitbq9), "virus4");
-        q10 = new Question(getString(R.string.fitbq10), "virus5");
-        q11 = new Question(getString(R.string.fitbq11), "scams1");
-        q12 = new Question(getString(R.string.fitbq12), "scams2");
-        q13 = new Question(getString(R.string.fitbq13), "scams3");
-        q14 = new Question(getString(R.string.fitbq14), "scams4");
-        q15 = new Question(getString(R.string.fitbq15), "scams5");
+        q1 = new Question(getString(R.string.fitbq1), "malware");
+        q2 = new Question(getString(R.string.fitbq2), "duplicate");
+        q3 = new Question(getString(R.string.fitbq3), "spyware");
+        q4 = new Question(getString(R.string.fitbq4), "adware");
+        q5 = new Question(getString(R.string.fitbq5), "ransomware");
+        q6 = new Question(getString(R.string.fitbq6), "overwrite virus");
+        q7 = new Question(getString(R.string.fitbq7), "polymorphic");
+        q8 = new Question(getString(R.string.fitbq8), "resident virus");
+        q9 = new Question(getString(R.string.fitbq9), "spacefiller");
+        q10 = new Question(getString(R.string.fitbq10), "multipartite");
+        q11 = new Question(getString(R.string.fitbq11), "grandparent scam");
+        q12 = new Question(getString(R.string.fitbq12), "romance scam");
+        q13 = new Question(getString(R.string.fitbq13), "phishing");
+        q14 = new Question(getString(R.string.fitbq14), "mail scam");
+        q15 = new Question(getString(R.string.fitbq15), "blackmail scam");
 
         unusedQuestions = new ArrayList<Question>();
         toBeAnswered = new ArrayList<Question>();
@@ -89,6 +91,7 @@ public class FitbActivity extends AppCompatActivity {
                 if(currentQ.getCorrectAnswer().equalsIgnoreCase(answerET.getText().toString())) {
                     Toast t = Toast.makeText(getApplicationContext(), "Correct!", Toast.LENGTH_SHORT);
                     t.show();
+                    isCorrectAnswer = true;
                     score = score + 1;
                     scoreCount.setText("score: " + score);
                 }
@@ -96,6 +99,7 @@ public class FitbActivity extends AppCompatActivity {
                     Toast t = Toast.makeText(getApplicationContext(), "Wrong. Try again or click" +
                             "\nnext to see the right answer.", Toast.LENGTH_SHORT);
                     t.show();
+                    isCorrectAnswer = false;
                 }
             }
         });
@@ -105,12 +109,20 @@ public class FitbActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                ///////////refer to the truefalse java code///////////
                 toBeAnswered.add(unusedQuestions.get(currentIndex));
                 unusedQuestions.remove(currentIndex);
                 currentIndex = (int) (Math.random() * unusedQuestions.size());
 
                 if(ibeforetotal < totalQs) {
+                    if(!currentQ.getCorrectAnswer().equalsIgnoreCase(answerET.getText().toString())){
+                        isCorrectAnswer = false;
+                    }
+                    else { isCorrectAnswer = true; }
+
+                    if(isCorrectAnswer == false) {
+                        Toast t = Toast.makeText(getApplicationContext(), "The answer is " +
+                                currentQ.getCorrectAnswer() + ".", Toast.LENGTH_SHORT);
+                    t.show(); }
                     answerET.setText("");
                     qNum.setText("QUESTION " + (ibeforetotal + 1));
                     currentQ = unusedQuestions.get(currentIndex);
